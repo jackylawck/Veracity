@@ -39,7 +39,7 @@ jobs:
       - name: Execute Autonomous Ingestion
         run: python -m scripts.ingest
 
-      - name: Gatekeeper: Enforce Schema Compliance Before Signing
+      - name: Gatekeeper Enforce Schema Compliance
         run: make check-schema
 
       - name: Setup Sigstore Cosign
@@ -61,7 +61,7 @@ jobs:
         run: |
           curl -s -X POST "https://web.archive.org/save/https://jackylawck.github.io/the-veracity/api/records-latest.json" > /dev/null || true
 
-      - name: Authenticated Push Back to Main (Triggers Pages Deploy)
+      - name: Authenticated Push Back to Main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
