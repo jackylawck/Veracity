@@ -1,6 +1,6 @@
 """
 UK The National Archives (TNA) Production Adapter
-支援自訂年代窗口（startDate / endDate），放寬檢索字詞以確保命中權威史料。
+繼承 BaseAdapter 統一時間窗口，落實防禦性分頁與官方原卷存證。
 """
 import re
 import html
@@ -38,11 +38,6 @@ class TnaProductionAdapter(BaseAdapter):
         unescaped = html.unescape(stripped)
         return " ".join(unescaped.split()).strip()
 
-    @staticmethod
-    def calculate_statutory_year_window(statutory_rule_years: int = 30) -> int:
-        current_year = datetime.now(timezone.utc).year
-        return current_year - statutory_rule_years
-
     def _execute_with_retry(self, params: Dict[str, Any]) -> Dict[str, Any]:
         for attempt in range(1, self.max_retries + 1):
             try:
@@ -64,15 +59,12 @@ class TnaProductionAdapter(BaseAdapter):
         ingested = []
         seen_batch_ids: Set[str] = set()
 
-        # 設定可探索年代區間：從 1945 年戰後開始，到法定解密截止年份
-        start_year = "1945-01-01"
-        end_year = f"{self.calculate_statutory_year_window(statutory_rule_years=30)}-12-31"
-
-        logger.info(f"[TNA] Historical Window: {start_year} to {end_year}")
+        # 核心改動：直接調用 BaseAdapter 的全域統一窗口
+        start_year, end_year = self.get_unified_date_window()
+        logger.info(f"[TNA] Applying Unified Historical Window: {start_year} to {end_year}")
 
         for page_idx in range(max_pages):
             params = {
-                # 使用廣泛命中之權威檢索字（冷戰外交與內閣機密）
                 "sps.searchQuery": "Cold War",
                 "sps.heldByFilter": "TNA",
                 "sps.startDate": start_year,
