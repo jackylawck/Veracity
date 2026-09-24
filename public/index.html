@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://jackylawck.github.io; object-src 'none'; base-uri 'self';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://*.github.io https://jackylawck.github.io; object-src 'none'; base-uri 'self';">
   <title>The Veracity | 揭古 - Sovereign Historical Forensics Ledger</title>
   <style>
     :root {
@@ -114,6 +114,14 @@
       margin-bottom: 1.5rem;
       font-size: 0.85rem;
     }
+    .empty-state {
+      padding: 2rem;
+      text-align: center;
+      border: 1px dashed var(--border);
+      border-radius: 6px;
+      color: #8b949e;
+      font-size: 0.95rem;
+    }
   </style>
 </head>
 <body>
@@ -173,6 +181,7 @@
         section_title: "法定解密卷宗清冊 (Primary Dossiers)",
         loading: "正在載入法證總帳...",
         load_error: "無法載入總帳端點或資料格式異常。",
+        empty_ledger: "目前總帳無案卷資料，等待下一次自動審計採集。",
         fonds_label: "全宗",
         dates_label: "涵蓋年份",
         view_original: "檢驗檔案館原始卷宗 ↗",
@@ -192,6 +201,7 @@
         section_title: "Statutory Primary Dossiers",
         loading: "Loading Forensic Ledger...",
         load_error: "Failed to load ledger endpoints or offline.",
+        empty_ledger: "No dossiers ingested yet. Awaiting scheduled audit cycle.",
         fonds_label: "Fonds",
         dates_label: "Period",
         view_original: "Inspect Primary Source ↗",
@@ -236,9 +246,13 @@
     }
 
     function renderData(ledger, health) {
-      document.getElementById('rec-count').textContent = health.total_records;
-      const auditDate = new Date(health.last_successful_run_utc);
-      document.getElementById('last-run').textContent = auditDate.toLocaleString(currentLang === 'zh' ? 'zh-HK' : 'en-US');
+      document.getElementById('rec-count').textContent = health.total_records ?? 0;
+      
+      const auditDateRaw = health.last_successful_run_utc || health.last_run_utc;
+      if (auditDateRaw) {
+        const auditDate = new Date(auditDateRaw);
+        document.getElementById('last-run').textContent = auditDate.toLocaleString(currentLang === 'zh' ? 'zh-HK' : 'en-US');
+      }
 
       const guardEl = document.getElementById('guard-status');
       guardEl.textContent = health.status === 'healthy' ? I18N[currentLang].guard_healthy : I18N[currentLang].guard_warning;
@@ -246,6 +260,14 @@
 
       const container = document.getElementById('records-list');
       container.innerHTML = '';
+
+      if (!ledger.records || ledger.records.length === 0) {
+        const emptyDiv = document.createElement('div');
+        emptyDiv.className = 'empty-state';
+        emptyDiv.textContent = I18N[currentLang].empty_ledger;
+        container.appendChild(emptyDiv);
+        return;
+      }
 
       ledger.records.forEach(r => {
         const card = document.createElement('div');
@@ -283,8 +305,8 @@
       setLanguage(currentLang);
       try {
         const [ledgerRes, healthRes] = await Promise.all([
-          fetch('api/records-latest.json'),
-          fetch('api/health.json')
+          fetch('api/records-latest.json?t=' + Date.now()),
+          fetch('api/health.json?t=' + Date.now())
         ]);
         if (!ledgerRes.ok || !healthRes.ok) throw new Error("Endpoint fetch failed");
 
