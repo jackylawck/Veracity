@@ -1,6 +1,6 @@
 """
 UK The National Archives (TNA) Production Adapter
-符合 TNA API DD/MM/YYYY 規格，並具備年代查詢備援機制。
+修復 TNA 1-indexed 分頁限制 (sps.page >= 1)，落實統一歷史窗口。
 """
 import re
 import html
@@ -62,13 +62,13 @@ class TnaProductionAdapter(BaseAdapter):
         start_year, end_year = self.get_unified_date_window()
         logger.info(f"[TNA] Applying Unified Historical Window: {start_year} to {end_year}")
 
-        query_text = f"Cold War {start_year}-{end_year}"
-
         for page_idx in range(max_pages):
+            # TNA sps.page 必須 >= 1，因此使用 page_idx + 1 (即 1, 2, 3)
+            current_page = page_idx + 1
             params = {
-                "sps.searchQuery": query_text,
+                "sps.searchQuery": "Cold War",
                 "sps.heldByFilter": "TNA",
-                "sps.page": str(page_idx),
+                "sps.page": str(current_page),
                 "sps.resultsPageSize": str(page_size)
             }
 
@@ -81,7 +81,7 @@ class TnaProductionAdapter(BaseAdapter):
 
                 current_batch_ids = {item.get("id") for item in records_batch if item.get("id")}
                 if current_batch_ids.issubset(seen_batch_ids):
-                    logger.warning(f"[TNA] Duplicate batch encountered at page {page_idx + 1}. Halting.")
+                    logger.warning(f"[TNA] Duplicate batch encountered at page {current_page}. Halting.")
                     break
                 seen_batch_ids.update(current_batch_ids)
 
@@ -135,7 +135,7 @@ class TnaProductionAdapter(BaseAdapter):
                 time.sleep(0.5)
 
             except Exception as e:
-                logger.error(f"[TNA] Page {page_idx + 1} isolated failure: {e}")
+                logger.error(f"[TNA] Page {current_page} isolated failure: {e}")
                 break
 
         logger.info(f"[TNA] Pipeline successfully acquired {len(ingested)} distinct records.")
