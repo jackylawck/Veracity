@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src 'self' https://jackylawck.github.io; object-src 'none'; base-uri 'self';">
+  <title>The Veracity | 揭古 - Sovereign Historical Forensics Ledger</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --text-bright: #ffffff;
+      --accent: #58a6ff;
+      --green: #2ea043;
+      --badge-bg: #21262d;
+      --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: 2rem 1rem;
+      line-height: 1.5;
+    }
+    .container { max-width: 980px; margin: 0 auto; }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .brand h1 { margin: 0 0 0.5rem 0; color: var(--text-bright); font-size: 1.8rem; }
+    .brand p { margin: 0 0 1rem 0; color: #8b949e; font-size: 0.95rem; }
+    .lang-switcher {
+      display: flex;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .lang-btn {
+      background: transparent;
+      border: none;
+      color: var(--text);
+      padding: 0.4rem 0.8rem;
+      cursor: pointer;
+      font-size: 0.85rem;
+      transition: all 0.2s;
+    }
+    .lang-btn.active {
+      background: var(--accent);
+      color: #000;
+      font-weight: bold;
+    }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .badge {
+      background: var(--badge-bg);
+      border: 1px solid var(--border);
+      padding: 3px 10px;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      font-family: var(--font-mono);
+    }
+    .badge.verified { border-color: var(--green); color: var(--green); }
+    
+    .status-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .metric-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      border-radius: 6px;
+    }
+    .metric-title { font-size: 0.85rem; color: #8b949e; margin-bottom: 0.25rem; }
+    .metric-val { font-size: 1.4rem; font-weight: bold; color: var(--accent); font-family: var(--font-mono); }
+
+    h2 { color: var(--text-bright); font-size: 1.3rem; margin-bottom: 1rem; }
+    .record-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 1.25rem;
+      margin-bottom: 1rem;
+      transition: border-color 0.2s;
+    }
+    .record-card:hover { border-color: var(--accent); }
+    .record-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+    .call-number { font-family: var(--font-mono); font-weight: bold; color: var(--accent); }
+    .record-title { font-size: 1.1rem; color: var(--text-bright); margin-bottom: 0.5rem; font-weight: 600; }
+    .record-meta { font-size: 0.85rem; color: #8b949e; display: flex; flex-wrap: wrap; gap: 1rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .notice-box {
+      background: rgba(88, 166, 255, 0.05);
+      border-left: 3px solid var(--accent);
+      padding: 0.75rem 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <h1 data-i18n="brand_title">The Veracity | 揭古</h1>
+        <p data-i18n="brand_desc">Sovereign Declassification Pipeline & Digital Historical Forensics Ledger</p>
+        <div class="badges">
+          <span class="badge verified" data-i18n="badge_sigstore">Layer 1: Sigstore Keyless Anchored</span>
+          <span class="badge" data-i18n="badge_ric">Layer 3: Archival Fonds (EAD/RiC)</span>
+          <span class="badge">Solo-Maintainer Model</span>
+        </div>
+      </div>
+      <div class="lang-switcher">
+        <button class="lang-btn" id="btn-zh" onclick="setLanguage('zh')">繁體中文</button>
+        <button class="lang-btn" id="btn-en" onclick="setLanguage('en')">English</button>
+      </div>
+    </header>
+
+    <div class="notice-box">
+      <span data-i18n="boundary_notice">
+        <strong>認識論聲明</strong>：本庫透過密碼學 SHA-256 與透明簽章確保位元完整性（Layer 1），不代表對公文內容真偽進行歷史裁判。解釋權永遠歸屬歷史學者。
+      </span>
+    </div>
+
+    <div class="status-bar">
+      <div class="metric-card">
+        <div class="metric-title" data-i18n="metric_records">總存證卷宗數 (Records)</div>
+        <div class="metric-val" id="rec-count">-</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-title" data-i18n="metric_last_audit">最近自動審計時間 (Last Audit)</div>
+        <div class="metric-val" id="last-run" style="font-size: 1rem;">-</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-title" data-i18n="metric_guard">滑動統計斷路器 (Circuit Breaker)</div>
+        <div class="metric-val" id="guard-status" style="font-size: 1rem;">ONLINE</div>
+      </div>
+    </div>
+
+    <h2 data-i18n="section_title">法定解密卷宗清冊 (Primary Dossiers)</h2>
+    <div id="records-list">Loading Ledger Data...</div>
+  </div>
+
+  <script>
+    const I18N = {
+      zh: {
+        brand_title: "The Veracity | 揭古",
+        brand_desc: "全球主權解密管線與歷史數位法證總帳（審計級存證生態系）",
+        badge_sigstore: "Layer 1: Sigstore 無金鑰透明簽章",
+        badge_ric: "Layer 3: 檔案全宗原則 (EAD/RiC)",
+        boundary_notice: "<strong>認識論聲明</strong>：本庫透過密碼學與透明簽章確保位元完整性（Layer 1），不代表對公文內容進行歷史裁判。歷史解釋權永遠歸屬人類學者。",
+        metric_records: "總存證卷宗數 (Records)",
+        metric_last_audit: "最近自動審計時間 (Last Audit)",
+        metric_guard: "滑動統計斷路器狀態",
+        section_title: "法定解密卷宗清冊 (Primary Dossiers)",
+        loading: "正在載入法證總帳...",
+        load_error: "無法載入總帳端點或資料格式異常。",
+        fonds_label: "全宗",
+        dates_label: "涵蓋年份",
+        view_original: "檢驗檔案館原始卷宗 ↗",
+        guard_healthy: "守護正常 (±2.5σ)",
+        guard_warning: "異常波動警告",
+        official_tag: "[官方原題]"
+      },
+      en: {
+        brand_title: "The Veracity",
+        brand_desc: "Sovereign Declassification Pipeline & Digital Historical Forensics Ledger",
+        badge_sigstore: "Layer 1: Sigstore Keyless Anchored",
+        badge_ric: "Layer 3: Archival Fonds (EAD/RiC)",
+        boundary_notice: "<strong>Epistemological Boundary</strong>: Cryptographic fixity (Layer 1) guarantees uncorrupted bitstreams, not the veracity of claims within. Historical interpretation remains human.",
+        metric_records: "Verified Records",
+        metric_last_audit: "Last Audit (UTC)",
+        metric_guard: "Statistical Circuit Breaker",
+        section_title: "Statutory Primary Dossiers",
+        loading: "Loading Forensic Ledger...",
+        load_error: "Failed to load ledger endpoints or offline.",
+        fonds_label: "Fonds",
+        dates_label: "Period",
+        view_original: "Inspect Primary Source ↗",
+        guard_healthy: "Normal (±2.5σ)",
+        guard_warning: "Anomaly Triggered",
+        official_tag: "[Primary Title]"
+      }
+    };
+
+    let currentLang = localStorage.getItem('veracity_lang') || 'zh';
+    let cachedLedger = null;
+    let cachedHealth = null;
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+    }
+
+    function setLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem('veracity_lang', lang);
+      document.documentElement.lang = lang === 'zh' ? 'zh-HK' : 'en';
+
+      document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (I18N[lang][key]) {
+          el.innerHTML = I18N[lang][key];
+        }
+      });
+
+      if (cachedLedger && cachedHealth) {
+        renderData(cachedLedger, cachedHealth);
+      }
+    }
+
+    function renderData(ledger, health) {
+      document.getElementById('rec-count').textContent = health.total_records;
+      const auditDate = new Date(health.last_successful_run_utc);
+      document.getElementById('last-run').textContent = auditDate.toLocaleString(currentLang === 'zh' ? 'zh-HK' : 'en-US');
+
+      const guardEl = document.getElementById('guard-status');
+      guardEl.textContent = health.status === 'healthy' ? I18N[currentLang].guard_healthy : I18N[currentLang].guard_warning;
+      guardEl.style.color = health.status === 'healthy' ? 'var(--green)' : '#f85149';
+
+      const container = document.getElementById('records-list');
+      container.innerHTML = '';
+
+      ledger.records.forEach(r => {
+        const card = document.createElement('div');
+        card.className = 'record-card';
+
+        let titleText = escapeHtml(r.archival_context.title.en);
+        if (currentLang === 'zh') {
+          titleText = r.archival_context.title.zh 
+            ? escapeHtml(r.archival_context.title.zh) 
+            : `${titleText} <span style="font-size:0.75rem; color:#8b949e; font-weight:normal;">${I18N[currentLang].official_tag}</span>`;
+        }
+
+        const repoText = escapeHtml((typeof r.archival_context.repository === 'object')
+          ? (r.archival_context.repository[currentLang] || r.archival_context.repository.en)
+          : r.archival_context.repository);
+
+        card.innerHTML = `
+          <div class="record-head">
+            <span class="call-number">${escapeHtml(r.archival_context.call_number)}</span>
+            <span class="badge verified">${escapeHtml(r.verification_level)}</span>
+          </div>
+          <div class="record-title">${titleText}</div>
+          <div class="record-meta">
+            <span><strong>${I18N[currentLang].fonds_label}:</strong> ${escapeHtml(r.archival_context.fonds)}</span>
+            <span><strong>${I18N[currentLang].dates_label}:</strong> ${escapeHtml(r.archival_context.covering_dates)}</span>
+            <span><strong>Repository:</strong> ${repoText}</span>
+            <a href="${escapeHtml(r.provenance.source_manifest_url)}" target="_blank" rel="noopener noreferrer">${I18N[currentLang].view_original}</a>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    async function init() {
+      setLanguage(currentLang);
+      try {
+        const [ledgerRes, healthRes] = await Promise.all([
+          fetch('api/records-latest.json'),
+          fetch('api/health.json')
+        ]);
+        if (!ledgerRes.ok || !healthRes.ok) throw new Error("Endpoint fetch failed");
+
+        cachedLedger = await ledgerRes.json();
+        cachedHealth = await healthRes.json();
+        renderData(cachedLedger, cachedHealth);
+      } catch (err) {
+        document.getElementById('records-list').textContent = I18N[currentLang].load_error;
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
