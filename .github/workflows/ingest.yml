@@ -1,0 +1,73 @@
+name: Veracity Autonomous Ingestion & Keyless Signature
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ingest-and-sign:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      id-token: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Setup Python Runtime
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Pinned Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install --require-hashes -r requirements.lock
+
+      - name: Run Hermetic Unit Tests
+        run: python -m pytest tests/
+
+      - name: Execute Autonomous Ingestion
+        run: python -m scripts.ingest
+
+      - name: Gatekeeper: Enforce Schema Compliance Before Signing
+        run: |
+          python -c "import json, jsonschema; schema=json.load(open('schemas/record.schema.json')); data=json.load(open('public/api/records-latest.json')); [jsonschema.validate(instance=r, schema=schema) for r in data['records']]; print('Gatekeeper Success: Ledger is 100% Schema Compliant.')"
+
+      - name: Setup Sigstore Cosign
+        uses: sigstore/cosign-installer@v3.5.0
+
+      - name: Keyless Cryptographic Signing
+        run: |
+          cosign sign-blob --yes \
+            --bundle public/api/records-latest.json.bundle \
+            public/api/records-latest.json
+
+      - name: Generate CycloneDX SBOM
+        run: |
+          python -m pip install cyclonedx-bom
+          cyclonedx-py requirements requirements.lock --output-format json --output-file public/api/bom.json
+
+      - name: Non-blocking Wayback Archive Snapshot
+        continue-on-error: true
+        run: |
+          curl -s -X POST "https://web.archive.org/save/https://jackylawck.github.io/the-veracity/api/records-latest.json" > /dev/null || true
+
+      - name: Authenticated Push Back to Main (Triggers Pages Deploy)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Veracity-Autonomous-Engine"
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          git add public/api/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(ledger): autonomous cryptographic update" && git push origin main)
