@@ -40,8 +40,7 @@ jobs:
         run: python -m scripts.ingest
 
       - name: Gatekeeper: Enforce Schema Compliance Before Signing
-        run: |
-          python -c "import json, jsonschema; schema=json.load(open('schemas/record.schema.json')); data=json.load(open('public/api/records-latest.json')); [jsonschema.validate(instance=r, schema=schema) for r in data['records']]; print('Gatekeeper Success: Ledger is 100% Schema Compliant.')"
+        run: python -c "import json, jsonschema; schema=json.load(open('schemas/record.schema.json')); data=json.load(open('public/api/records-latest.json')); [jsonschema.validate(instance=r, schema=schema) for r in data['records']]; print('Gatekeeper Success: Ledger is 100% Schema Compliant.')"
 
       - name: Setup Sigstore Cosign
         uses: sigstore/cosign-installer@v3.5.0
