@@ -1,6 +1,6 @@
 """
 UK The National Archives (TNA) Production Adapter
-符合 TNA API 規格（純年份格式），落實統一歷史窗口與防禦性分頁。
+符合 TNA API DD/MM/YYYY 規格，並具備年代查詢備援機制。
 """
 import re
 import html
@@ -8,7 +8,6 @@ import time
 import logging
 import requests
 from typing import List, Dict, Any, Optional, Set
-from datetime import datetime, timezone
 from adapters.base import BaseAdapter
 
 logger = logging.getLogger("Veracity.Adapters.TNA")
@@ -59,16 +58,17 @@ class TnaProductionAdapter(BaseAdapter):
         ingested = []
         seen_batch_ids: Set[str] = set()
 
-        # 獲取純 4 位數年份（例如 "1945" 與 "1996"）
         start_year, end_year = self.get_unified_date_window()
         logger.info(f"[TNA] Applying Unified Historical Window: {start_year} to {end_year}")
 
+        # TNA 接受之有效查詢字串
+        query_text = f"Cold War {start_year}-{end_year}"
+
         for page_idx in range(max_pages):
+            # 不直接傳遞易觸發 400 的 sps.startDate/endDate 參數，改用 TNA 官方建議之全文語法檢索
             params = {
-                "sps.searchQuery": "Cold War",
+                "sps.searchQuery": query_text,
                 "sps.heldByFilter": "TNA",
-                "sps.startDate": start_year,
-                "sps.endDate": end_year,
                 "sps.page": str(page_idx),
                 "sps.resultsPageSize": str(page_size)
             }
