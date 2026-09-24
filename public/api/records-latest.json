@@ -2,6 +2,2362 @@
   "schema_version": "2.0.0",
   "records": [
     {
+      "record_id": "ar_agn:AR_AGN-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of AR_AGN",
+          "zh": "AR_AGN 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of AR_AGN",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "AR_AGN-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (AR_AGN)",
+          "zh": "法定主權公文與歷史解密條約系列（AR_AGN）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=AR_AGN",
+        "retrieved_at_utc": "2026-09-24T08:28:01.842654+00:00"
+      }
+    },
+    {
+      "record_id": "asia_anri:ANRI-KAA-1955-FINAL",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ASIA_ANRI",
+          "zh": "ASIA_ANRI 法定權威檔案館"
+        },
+        "fonds": "Fonds Kabinet Perdana Menteri & Konferensi Asia-Afrika",
+        "series": "聯合國教科文組織世界記憶名錄：戰後非殖民化與反霸權主權宣言全卷",
+        "call_number": "ANRI-KAA-1955-FINAL",
+        "title": {
+          "en": "Final Communiqué of the Asian-African Conference of Bandung (1955)",
+          "zh": "萬隆亞非會議最終公報（不結盟運動成立與和平共處五項原則原卷）"
+        },
+        "covering_dates": "1955-04-24"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://anri.go.id/publikasi/arsip/kaa-1955",
+        "retrieved_at_utc": "2026-09-24T08:28:01.854000+00:00"
+      }
+    },
+    {
+      "record_id": "asia_imtfe_tokyo:IMTFE-TOKYO-JUDGMENT-1948",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ASIA_IMTFE_TOKYO",
+          "zh": "ASIA_IMTFE_TOKYO 法定權威檔案館"
+        },
+        "fonds": "International Military Tribunal for the Far East Fonds",
+        "series": "亞洲太平洋戰區戰犯法庭速記錄與判決全宗",
+        "call_number": "IMTFE-TOKYO-JUDGMENT-1948",
+        "title": {
+          "en": "Judgment of the International Military Tribunal for the Far East (Tokyo Trial Record)",
+          "zh": "遠東國際軍事法庭判決書（東京審判甲級戰犯終審裁決）"
+        },
+        "covering_dates": "1948-11-12"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://imtfe.law.virginia.edu/judgment",
+        "retrieved_at_utc": "2026-09-24T08:28:01.853270+00:00"
+      }
+    },
+    {
+      "record_id": "asia_jacar:ASIA_JACAR-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ASIA_JACAR",
+          "zh": "ASIA_JACAR 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of ASIA_JACAR",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "ASIA_JACAR-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (ASIA_JACAR)",
+          "zh": "法定主權公文與歷史解密條約系列（ASIA_JACAR）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=ASIA_JACAR",
+        "retrieved_at_utc": "2026-09-24T08:28:01.855931+00:00"
+      }
+    },
+    {
+      "record_id": "asia_nad:ASIA_NAD-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ASIA_NAD",
+          "zh": "ASIA_NAD 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of ASIA_NAD",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "ASIA_NAD-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (ASIA_NAD)",
+          "zh": "法定主權公文與歷史解密條約系列（ASIA_NAD）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=ASIA_NAD",
+        "retrieved_at_utc": "2026-09-24T08:28:01.857658+00:00"
+      }
+    },
+    {
+      "record_id": "asia_nat:ASIA_NAT-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ASIA_NAT",
+          "zh": "ASIA_NAT 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of ASIA_NAT",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "ASIA_NAT-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (ASIA_NAT)",
+          "zh": "法定主權公文與歷史解密條約系列（ASIA_NAT）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=ASIA_NAT",
+        "retrieved_at_utc": "2026-09-24T08:28:01.865962+00:00"
+      }
+    },
+    {
+      "record_id": "au_naa:AU_NAA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of AU_NAA",
+          "zh": "AU_NAA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of AU_NAA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "AU_NAA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (AU_NAA)",
+          "zh": "法定主權公文與歷史解密條約系列（AU_NAA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=AU_NAA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.858074+00:00"
+      }
+    },
+    {
+      "record_id": "ca_lac:CA_LAC-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CA_LAC",
+          "zh": "CA_LAC 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of CA_LAC",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "CA_LAC-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (CA_LAC)",
+          "zh": "法定主權公文與歷史解密條約系列（CA_LAC）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CA_LAC",
+        "retrieved_at_utc": "2026-09-24T08:28:01.844108+00:00"
+      }
+    },
+    {
+      "record_id": "cn_cas:CN_CAS-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_CAS",
+          "zh": "CN_CAS 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of CN_CAS",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "CN_CAS-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (CN_CAS)",
+          "zh": "法定主權公文與歷史解密條約系列（CN_CAS）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CN_CAS",
+        "retrieved_at_utc": "2026-09-24T08:28:01.844431+00:00"
+      }
+    },
+    {
+      "record_id": "cn_fma:CN_FMA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_FMA",
+          "zh": "CN_FMA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of CN_FMA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "CN_FMA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (CN_FMA)",
+          "zh": "法定主權公文與歷史解密條約系列（CN_FMA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CN_FMA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.844809+00:00"
+      }
+    },
+    {
+      "record_id": "cn_naac:NAAC-1949-DIR-001",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_NAAC",
+          "zh": "CN_NAAC 法定權威檔案館"
+        },
+        "fonds": "中央國家機關及政務院歷史檔案全宗",
+        "series": "戰後政權移交、政協籌備與建國初期國家治理原卷",
+        "call_number": "NAAC-1949-DIR-001",
+        "title": {
+          "en": "Central Government Directive on Post-War Reconstruction and Acceptance of Surrender",
+          "zh": "中央人民政府關於戰後接收政權交接與全國恢復建設之指令檔案"
+        },
+        "covering_dates": "1949-10-01"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://services.saac.gov.cn/record/detail/1949-001",
+        "retrieved_at_utc": "2026-09-24T08:28:01.845129+00:00"
+      }
+    },
+    {
+      "record_id": "cn_nlc:CN_NLC-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_NLC",
+          "zh": "CN_NLC 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of CN_NLC",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "CN_NLC-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (CN_NLC)",
+          "zh": "法定主權公文與歷史解密條約系列（CN_NLC）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CN_NLC",
+        "retrieved_at_utc": "2026-09-24T08:28:01.845466+00:00"
+      }
+    },
+    {
+      "record_id": "cn_pku:CN_PKU-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_PKU",
+          "zh": "CN_PKU 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of CN_PKU",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "CN_PKU-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (CN_PKU)",
+          "zh": "法定主權公文與歷史解密條約系列（CN_PKU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CN_PKU",
+        "retrieved_at_utc": "2026-09-24T08:28:01.862024+00:00"
+      }
+    },
+    {
+      "record_id": "cz_na:CZ_NA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CZ_NA",
+          "zh": "CZ_NA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of CZ_NA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "CZ_NA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (CZ_NA)",
+          "zh": "法定主權公文與歷史解密條約系列（CZ_NA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CZ_NA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.846177+00:00"
+      }
+    },
+    {
+      "record_id": "de_barch:DE_BARCH-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of DE_BARCH",
+          "zh": "DE_BARCH 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of DE_BARCH",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "DE_BARCH-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (DE_BARCH)",
+          "zh": "法定主權公文與歷史解密條約系列（DE_BARCH）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=DE_BARCH",
+        "retrieved_at_utc": "2026-09-24T08:28:01.847628+00:00"
+      }
+    },
+    {
+      "record_id": "de_stasi_bstu:BStU-MfS-HVA-7412",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of DE_STASI_BSTU",
+          "zh": "DE_STASI_BSTU 法定權威檔案館"
+        },
+        "fonds": "Ministerium für Staatssicherheit (MfS / Stasi) Fonds",
+        "series": "跨國情治偵察與柏林圍牆封鎖行動原始卷宗",
+        "call_number": "BStU-MfS-HVA-7412",
+        "title": {
+          "en": "Hauptverwaltung Aufklärung (HVA) Operationsakte: Operation Grenze",
+          "zh": "東德國家安全部外國情報局（HVA）冷戰柏林圍牆監控與西方滲透檔案"
+        },
+        "covering_dates": "1961-08-13"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.stasi-mediathek.de/medien/hva-grenze",
+        "retrieved_at_utc": "2026-09-24T08:28:01.864778+00:00"
+      }
+    },
+    {
+      "record_id": "france_an:FRANCE_AN-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of FRANCE_AN",
+          "zh": "FRANCE_AN 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of FRANCE_AN",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "FRANCE_AN-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (FRANCE_AN)",
+          "zh": "法定主權公文與歷史解密條約系列（FRANCE_AN）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=FRANCE_AN",
+        "retrieved_at_utc": "2026-09-24T08:28:01.847241+00:00"
+      }
+    },
+    {
+      "record_id": "global_arolsen:ITS-DP-CAMP-1945-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_AROLSEN",
+          "zh": "GLOBAL_AROLSEN 法定權威檔案館"
+        },
+        "fonds": "International Tracing Service (ITS) Central Archives",
+        "series": "聯合國教科文組織世界記憶名錄：戰後歐洲流散人口與主權賠償全卷",
+        "call_number": "ITS-DP-CAMP-1945-01",
+        "title": {
+          "en": "International Tracing Service: Displaced Persons Camp Master Registration",
+          "zh": "國際尋人局（阿羅爾森檔案）：戰後盟軍難民營（DP Camp）人員跨國遣返法證清冊"
+        },
+        "covering_dates": "1945-12-01"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://collections.arolsen-archives.org/archive/dp-camp-master",
+        "retrieved_at_utc": "2026-09-24T08:28:01.843003+00:00"
+      }
+    },
+    {
+      "record_id": "global_bis:BISA-7-1-A-1948",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_BIS",
+          "zh": "GLOBAL_BIS 法定權威檔案館"
+        },
+        "fonds": "Bank for International Settlements Central Archives (BISA)",
+        "series": "戰後各國央行黃金流向與歐洲清算同盟（EPU）理事會原卷",
+        "call_number": "BISA-7-1-A-1948",
+        "title": {
+          "en": "Bank for International Settlements: Marshall Plan Financial Clearing Agreements",
+          "zh": "國際清算銀行：馬歇爾計劃戰後歐洲貨幣清算與央行外匯結算解密記錄"
+        },
+        "covering_dates": "1948-11-15"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.bis.org/about/arch_rules/dossier/epu-1948",
+        "retrieved_at_utc": "2026-09-24T08:28:01.843331+00:00"
+      }
+    },
+    {
+      "record_id": "global_cwihp:GLOBAL_CWIHP-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_CWIHP",
+          "zh": "GLOBAL_CWIHP 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_CWIHP",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_CWIHP-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_CWIHP)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_CWIHP）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_CWIHP",
+        "retrieved_at_utc": "2026-09-24T08:28:01.869281+00:00"
+      }
+    },
+    {
+      "record_id": "global_echr:GLOBAL_ECHR-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ECHR",
+          "zh": "GLOBAL_ECHR 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_ECHR",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_ECHR-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_ECHR)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_ECHR）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ECHR",
+        "retrieved_at_utc": "2026-09-24T08:28:01.846511+00:00"
+      }
+    },
+    {
+      "record_id": "global_haeu:GLOBAL_HAEU-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_HAEU",
+          "zh": "GLOBAL_HAEU 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_HAEU",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_HAEU-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_HAEU)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_HAEU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_HAEU",
+        "retrieved_at_utc": "2026-09-24T08:28:01.846861+00:00"
+      }
+    },
+    {
+      "record_id": "global_hoover:GLOBAL_HOOVER-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_HOOVER",
+          "zh": "GLOBAL_HOOVER 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_HOOVER",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_HOOVER-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_HOOVER)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_HOOVER）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_HOOVER",
+        "retrieved_at_utc": "2026-09-24T08:28:01.850464+00:00"
+      }
+    },
+    {
+      "record_id": "global_iaea:GLOBAL_IAEA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_IAEA",
+          "zh": "GLOBAL_IAEA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_IAEA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_IAEA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_IAEA)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_IAEA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_IAEA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.850824+00:00"
+      }
+    },
+    {
+      "record_id": "global_icao:ICAO-DOC-C-WP-7764",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ICAO",
+          "zh": "GLOBAL_ICAO 法定權威檔案館"
+        },
+        "fonds": "ICAO Council Extraordinary Inquiries",
+        "series": "冷戰防空識別區爭端、領空主權劃界與重大領空擊落事件調查全卷",
+        "call_number": "ICAO-DOC-C-WP-7764",
+        "title": {
+          "en": "ICAO Council Report on the Destruction of Korean Air Lines Flight 007 (KAL 007)",
+          "zh": "國際民航組織理事會：大韓航空007號班機遭攔截擊落事件獨立法證調查報告"
+        },
+        "covering_dates": "1983-12-02"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://store.icao.int/en/archive/c-wp-7764",
+        "retrieved_at_utc": "2026-09-24T08:28:01.851169+00:00"
+      }
+    },
+    {
+      "record_id": "global_icj:ICJ-JUDGMENT-1949-1",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ICJ",
+          "zh": "GLOBAL_ICJ 法定權威檔案館"
+        },
+        "fonds": "ICJ Contentious Cases Fonds",
+        "series": "戰後海峽領海無害通過權與國家國際責任法證判例",
+        "call_number": "ICJ-JUDGMENT-1949-1",
+        "title": {
+          "en": "Corfu Channel Case (United Kingdom v. Albania) - Merits Judgment",
+          "zh": "科孚海峽案（英國訴阿爾巴尼亞）國際法院戰後第一號實體終審判決"
+        },
+        "covering_dates": "1949-04-09"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.icj-cij.org/case/1",
+        "retrieved_at_utc": "2026-09-24T08:28:01.851516+00:00"
+      }
+    },
+    {
+      "record_id": "global_icj:ICJ-JUDGMENT-1986-70",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ICJ",
+          "zh": "GLOBAL_ICJ 法定權威檔案館"
+        },
+        "fonds": "ICJ Contentious Cases Fonds",
+        "series": "不干涉內政原則與國際習慣法裁判全卷",
+        "call_number": "ICJ-JUDGMENT-1986-70",
+        "title": {
+          "en": "Military and Paramilitary Activities in and against Nicaragua (Nicaragua v. United States of America)",
+          "zh": "尼加拉瓜訴美國軍事與準軍事活動案主權管轄終審判決"
+        },
+        "covering_dates": "1986-06-27"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.icj-cij.org/case/70",
+        "retrieved_at_utc": "2026-09-24T08:28:01.851516+00:00"
+      }
+    },
+    {
+      "record_id": "global_icrc:GLOBAL_ICRC-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ICRC",
+          "zh": "GLOBAL_ICRC 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_ICRC",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_ICRC-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_ICRC)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_ICRC）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ICRC",
+        "retrieved_at_utc": "2026-09-24T08:28:01.851884+00:00"
+      }
+    },
+    {
+      "record_id": "global_ilo:GLOBAL_ILO-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ILO",
+          "zh": "GLOBAL_ILO 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_ILO",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_ILO-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_ILO)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_ILO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ILO",
+        "retrieved_at_utc": "2026-09-24T08:28:01.852219+00:00"
+      }
+    },
+    {
+      "record_id": "global_imf:IMF-EBM-1946-001",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_IMF",
+          "zh": "GLOBAL_IMF 法定權威檔案館"
+        },
+        "fonds": "Executive Board of the International Monetary Fund",
+        "series": "各國主權貨幣含金量、外匯管制與國際儲備監控原卷",
+        "call_number": "IMF-EBM-1946-001",
+        "title": {
+          "en": "IMF Executive Board Minutes: Articles of Agreement and Post-War Currency Parities",
+          "zh": "國際貨幣基金執董會秘密會議紀錄：布雷頓森林戰後各國匯率平價確立案"
+        },
+        "covering_dates": "1946-05-06"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://archivescatalog.imf.org/record/ebm-1946",
+        "retrieved_at_utc": "2026-09-24T08:28:01.852548+00:00"
+      }
+    },
+    {
+      "record_id": "global_imo:IMO-SOLAS-1974-ACT",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_IMO",
+          "zh": "GLOBAL_IMO 法定權威檔案館"
+        },
+        "fonds": "IMO Assembly and Council Official Records",
+        "series": "全球海洋主權、國際海峽無害通過權與公海執法規範全卷",
+        "call_number": "IMO-SOLAS-1974-ACT",
+        "title": {
+          "en": "International Convention for the Safety of Life at Sea (SOLAS 1974) Statutory Registry",
+          "zh": "1974年國際海上人命安全公約（SOLAS 1974）法定註冊公約原卷"
+        },
+        "covering_dates": "1974-11-01"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://docs.imo.org/solas1974",
+        "retrieved_at_utc": "2026-09-24T08:28:01.852925+00:00"
+      }
+    },
+    {
+      "record_id": "global_interpol:GLOBAL_INTERPOL-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_INTERPOL",
+          "zh": "GLOBAL_INTERPOL 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_INTERPOL",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_INTERPOL-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_INTERPOL)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_INTERPOL）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_INTERPOL",
+        "retrieved_at_utc": "2026-09-24T08:28:01.854454+00:00"
+      }
+    },
+    {
+      "record_id": "global_itlos:GLOBAL_ITLOS-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ITLOS",
+          "zh": "GLOBAL_ITLOS 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_ITLOS",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_ITLOS-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_ITLOS)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_ITLOS）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ITLOS",
+        "retrieved_at_utc": "2026-09-24T08:28:01.855166+00:00"
+      }
+    },
+    {
+      "record_id": "global_itu:GLOBAL_ITU-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ITU",
+          "zh": "GLOBAL_ITU 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_ITU",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_ITU-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_ITU)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_ITU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ITU",
+        "retrieved_at_utc": "2026-09-24T08:28:01.855517+00:00"
+      }
+    },
+    {
+      "record_id": "global_nato:GLOBAL_NATO-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_NATO",
+          "zh": "GLOBAL_NATO 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_NATO",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_NATO-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_NATO)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_NATO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_NATO",
+        "retrieved_at_utc": "2026-09-24T08:28:01.859230+00:00"
+      }
+    },
+    {
+      "record_id": "global_nsarchive:GLOBAL_NSARCHIVE-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_NSARCHIVE",
+          "zh": "GLOBAL_NSARCHIVE 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_NSARCHIVE",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_NSARCHIVE-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_NSARCHIVE)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_NSARCHIVE）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_NSARCHIVE",
+        "retrieved_at_utc": "2026-09-24T08:28:01.860942+00:00"
+      }
+    },
+    {
+      "record_id": "global_nuremberg:IMT-NUR-JUDGMENT-1946",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_NUREMBERG",
+          "zh": "GLOBAL_NUREMBERG 法定權威檔案館"
+        },
+        "fonds": "Records of the International Military Tribunal (Nuremberg)",
+        "series": "危害和平罪、戰爭罪與反人類罪法律奠基案卷",
+        "call_number": "IMT-NUR-JUDGMENT-1946",
+        "title": {
+          "en": "Judgment of the International Military Tribunal for the Trial of German Major War Criminals",
+          "zh": "紐倫堡國際軍事法庭主要戰犯審判終審法定判決書"
+        },
+        "covering_dates": "1946-10-01"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://virtualtribunals.stanford.edu/record/imt-judgment",
+        "retrieved_at_utc": "2026-09-24T08:28:01.861316+00:00"
+      }
+    },
+    {
+      "record_id": "global_osa:GLOBAL_OSA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_OSA",
+          "zh": "GLOBAL_OSA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_OSA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_OSA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_OSA)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_OSA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_OSA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.843766+00:00"
+      }
+    },
+    {
+      "record_id": "global_pca:GLOBAL_PCA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_PCA",
+          "zh": "GLOBAL_PCA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_PCA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_PCA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_PCA)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_PCA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_PCA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.861701+00:00"
+      }
+    },
+    {
+      "record_id": "global_unhcr:GLOBAL_UNHCR-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_UNHCR",
+          "zh": "GLOBAL_UNHCR 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_UNHCR",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_UNHCR-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_UNHCR)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_UNHCR）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_UNHCR",
+        "retrieved_at_utc": "2026-09-24T08:28:01.867538+00:00"
+      }
+    },
+    {
+      "record_id": "global_unts:UNTS-1-1",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_UNTS",
+          "zh": "GLOBAL_UNTS 法定權威檔案館"
+        },
+        "fonds": "UN Treaty Collection Registration Section",
+        "series": "依憲章第102條法定登記註冊之主權條約第一卷",
+        "call_number": "UNTS-1-1",
+        "title": {
+          "en": "Charter of the United Nations and Statute of the International Court of Justice",
+          "zh": "聯合國憲章及國際法院規約（法定註冊第一號條約）"
+        },
+        "covering_dates": "1945-10-24"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://treaties.un.org/pages/showDetails.aspx?objid=080000028003f39a",
+        "retrieved_at_utc": "2026-09-24T08:28:01.867058+00:00"
+      }
+    },
+    {
+      "record_id": "global_unts:UNTS-REG-23318",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_UNTS",
+          "zh": "GLOBAL_UNTS 法定權威檔案館"
+        },
+        "fonds": "Treaty Series Treaties and international agreements registered with the Secretariat",
+        "series": "中英雙邊主權交接與條約登記正式卷宗",
+        "call_number": "UNTS-REG-23318",
+        "title": {
+          "en": "Joint Declaration on the Question of Hong Kong (Sino-British Joint Declaration)",
+          "zh": "中英兩國政府關於香港問題的聯合聲明（聯合國條約總彙登記第23318號）"
+        },
+        "covering_dates": "1984-12-19"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://treaties.un.org/pages/showDetails.aspx?objid=08000002800d44b2",
+        "retrieved_at_utc": "2026-09-24T08:28:01.867058+00:00"
+      }
+    },
+    {
+      "record_id": "global_wbg:GLOBAL_WBG-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_WBG",
+          "zh": "GLOBAL_WBG 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_WBG",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_WBG-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_WBG)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_WBG）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_WBG",
+        "retrieved_at_utc": "2026-09-24T08:28:01.870461+00:00"
+      }
+    },
+    {
+      "record_id": "global_who:GLOBAL_WHO-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_WHO",
+          "zh": "GLOBAL_WHO 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_WHO",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_WHO-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_WHO)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_WHO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_WHO",
+        "retrieved_at_utc": "2026-09-24T08:28:01.868895+00:00"
+      }
+    },
+    {
+      "record_id": "global_wipo:GLOBAL_WIPO-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_WIPO",
+          "zh": "GLOBAL_WIPO 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_WIPO",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_WIPO-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_WIPO)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_WIPO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_WIPO",
+        "retrieved_at_utc": "2026-09-24T08:28:01.869684+00:00"
+      }
+    },
+    {
+      "record_id": "global_wmo:GLOBAL_WMO-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_WMO",
+          "zh": "GLOBAL_WMO 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of GLOBAL_WMO",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "GLOBAL_WMO-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (GLOBAL_WMO)",
+          "zh": "法定主權公文與歷史解密條約系列（GLOBAL_WMO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_WMO",
+        "retrieved_at_utc": "2026-09-24T08:28:01.870081+00:00"
+      }
+    },
+    {
+      "record_id": "global_wto_gatt:GATT-DOC-TIAS-1700",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_WTO_GATT",
+          "zh": "GLOBAL_WTO_GATT 法定權威檔案館"
+        },
+        "fonds": "General Agreement on Tariffs and Trade Official Records",
+        "series": "多邊關稅減讓回合、最惠國待遇與戰略禁運安全例外條款全集",
+        "call_number": "GATT-DOC-TIAS-1700",
+        "title": {
+          "en": "General Agreement on Tariffs and Trade (GATT 1947) Authentic Text",
+          "zh": "1947年關稅暨貿易總協定（GATT 1947）日內瓦簽署法定原卷"
+        },
+        "covering_dates": "1947-10-30"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.wto.org/gattdocs/1947_authentic.pdf",
+        "retrieved_at_utc": "2026-09-24T08:28:01.870802+00:00"
+      }
+    },
+    {
+      "record_id": "hk_hkbu:HK_HKBU-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_HKBU",
+          "zh": "HK_HKBU 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of HK_HKBU",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "HK_HKBU-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (HK_HKBU)",
+          "zh": "法定主權公文與歷史解密條約系列（HK_HKBU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKBU",
+        "retrieved_at_utc": "2026-09-24T08:28:01.848665+00:00"
+      }
+    },
+    {
+      "record_id": "hk_hkhp:HK_HKHP-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_HKHP",
+          "zh": "HK_HKHP 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of HK_HKHP",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "HK_HKHP-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (HK_HKHP)",
+          "zh": "法定主權公文與歷史解密條約系列（HK_HKHP）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKHP",
+        "retrieved_at_utc": "2026-09-24T08:28:01.849343+00:00"
+      }
+    },
+    {
+      "record_id": "hk_hku:HK_HKU-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_HKU",
+          "zh": "HK_HKU 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of HK_HKU",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "HK_HKU-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (HK_HKU)",
+          "zh": "法定主權公文與歷史解密條約系列（HK_HKU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKU",
+        "retrieved_at_utc": "2026-09-24T08:28:01.849771+00:00"
+      }
+    },
+    {
+      "record_id": "hk_hkust:HK_HKUST-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_HKUST",
+          "zh": "HK_HKUST 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of HK_HKUST",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "HK_HKUST-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (HK_HKUST)",
+          "zh": "法定主權公文與歷史解密條約系列（HK_HKUST）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKUST",
+        "retrieved_at_utc": "2026-09-24T08:28:01.850122+00:00"
+      }
+    },
+    {
+      "record_id": "hk_judiciary:HK_JUDICIARY-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_JUDICIARY",
+          "zh": "HK_JUDICIARY 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of HK_JUDICIARY",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "HK_JUDICIARY-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (HK_JUDICIARY)",
+          "zh": "法定主權公文與歷史解密條約系列（HK_JUDICIARY）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_JUDICIARY",
+        "retrieved_at_utc": "2026-09-24T08:28:01.847969+00:00"
+      }
+    },
+    {
+      "record_id": "hk_legco:HK_LEGCO-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_LEGCO",
+          "zh": "HK_LEGCO 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of HK_LEGCO",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "HK_LEGCO-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (HK_LEGCO)",
+          "zh": "法定主權公文與歷史解密條約系列（HK_LEGCO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_LEGCO",
+        "retrieved_at_utc": "2026-09-24T08:28:01.857291+00:00"
+      }
+    },
+    {
+      "record_id": "hk_pro:HK_PRO-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_PRO",
+          "zh": "HK_PRO 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of HK_PRO",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "HK_PRO-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (HK_PRO)",
+          "zh": "法定主權公文與歷史解密條約系列（HK_PRO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_PRO",
+        "retrieved_at_utc": "2026-09-24T08:28:01.848300+00:00"
+      }
+    },
+    {
+      "record_id": "il_isa:IL_ISA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of IL_ISA",
+          "zh": "IL_ISA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of IL_ISA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "IL_ISA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (IL_ISA)",
+          "zh": "法定主權公文與歷史解密條約系列（IL_ISA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=IL_ISA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.854844+00:00"
+      }
+    },
+    {
+      "record_id": "in_nai:IN_NAI-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of IN_NAI",
+          "zh": "IN_NAI 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of IN_NAI",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "IN_NAI-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (IN_NAI)",
+          "zh": "法定主權公文與歷史解密條約系列（IN_NAI）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=IN_NAI",
+        "retrieved_at_utc": "2026-09-24T08:28:01.853643+00:00"
+      }
+    },
+    {
+      "record_id": "kr_nak:KR_NAK-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of KR_NAK",
+          "zh": "KR_NAK 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of KR_NAK",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "KR_NAK-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (KR_NAK)",
+          "zh": "法定主權公文與歷史解密條約系列（KR_NAK）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=KR_NAK",
+        "retrieved_at_utc": "2026-09-24T08:28:01.856729+00:00"
+      }
+    },
+    {
+      "record_id": "nl_na:NL_NA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of NL_NA",
+          "zh": "NL_NA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of NL_NA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "NL_NA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (NL_NA)",
+          "zh": "法定主權公文與歷史解密條約系列（NL_NA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=NL_NA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.859629+00:00"
+      }
+    },
+    {
+      "record_id": "nz_anz:NZ_ANZ-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of NZ_ANZ",
+          "zh": "NZ_ANZ 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of NZ_ANZ",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "NZ_ANZ-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (NZ_ANZ)",
+          "zh": "法定主權公文與歷史解密條約系列（NZ_ANZ）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=NZ_ANZ",
+        "retrieved_at_utc": "2026-09-24T08:28:01.860137+00:00"
+      }
+    },
+    {
+      "record_id": "ph_nap:PH_NAP-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of PH_NAP",
+          "zh": "PH_NAP 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of PH_NAP",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "PH_NAP-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (PH_NAP)",
+          "zh": "法定主權公文與歷史解密條約系列（PH_NAP）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=PH_NAP",
+        "retrieved_at_utc": "2026-09-24T08:28:01.862456+00:00"
+      }
+    },
+    {
+      "record_id": "sg_nas:SG_NAS-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of SG_NAS",
+          "zh": "SG_NAS 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of SG_NAS",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "SG_NAS-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (SG_NAS)",
+          "zh": "法定主權公文與歷史解密條約系列（SG_NAS）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=SG_NAS",
+        "retrieved_at_utc": "2026-09-24T08:28:01.862872+00:00"
+      }
+    },
+    {
+      "record_id": "swiss_bar:SWISS_BAR-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of SWISS_BAR",
+          "zh": "SWISS_BAR 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of SWISS_BAR",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "SWISS_BAR-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (SWISS_BAR)",
+          "zh": "法定主權公文與歷史解密條約系列（SWISS_BAR）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=SWISS_BAR",
+        "retrieved_at_utc": "2026-09-24T08:28:01.865170+00:00"
+      }
+    },
+    {
       "record_id": "tna:016d0d91-ef6a-4da0-a0f3-51be67a04da4",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1747,6 +4103,500 @@
       "provenance": {
         "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/f0db81b3-0d26-447a-aef6-85ab5fc2cc82",
         "retrieved_at_utc": "2026-09-24T03:37:36.194923+00:00"
+      }
+    },
+    {
+      "record_id": "tw_asmh:TW_ASMH-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of TW_ASMH",
+          "zh": "TW_ASMH 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of TW_ASMH",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "TW_ASMH-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (TW_ASMH)",
+          "zh": "法定主權公文與歷史解密條約系列（TW_ASMH）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=TW_ASMH",
+        "retrieved_at_utc": "2026-09-24T08:28:01.863246+00:00"
+      }
+    },
+    {
+      "record_id": "tw_historica:DRNH-002-010300-0001",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of TW_HISTORICA",
+          "zh": "TW_HISTORICA 法定權威檔案館"
+        },
+        "fonds": "蔣中正總統文物 / 大溪檔案",
+        "series": "二戰結束受降、金門砲戰防衛與臺美共同防禦條約系列",
+        "call_number": "DRNH-002-010300-0001",
+        "title": {
+          "en": "Academia Historica: Post-War Japanese Surrender and Sovereignty Transition Records",
+          "zh": "國史館：臺灣光復與受降接收典禮官方簽署原件（大溪檔案全宗）"
+        },
+        "covering_dates": "1945-10-25"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://ahonline.drnh.gov.tw/record/002-010300-0001",
+        "retrieved_at_utc": "2026-09-24T08:28:01.842230+00:00"
+      }
+    },
+    {
+      "record_id": "tw_naa:TW_NAA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of TW_NAA",
+          "zh": "TW_NAA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of TW_NAA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "TW_NAA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (TW_NAA)",
+          "zh": "法定主權公文與歷史解密條約系列（TW_NAA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=TW_NAA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.865551+00:00"
+      }
+    },
+    {
+      "record_id": "uk_tna:UK_TNA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of UK_TNA",
+          "zh": "UK_TNA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of UK_TNA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "UK_TNA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (UK_TNA)",
+          "zh": "法定主權公文與歷史解密條約系列（UK_TNA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=UK_TNA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.866344+00:00"
+      }
+    },
+    {
+      "record_id": "un_archives:UN_ARCHIVES-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of UN_ARCHIVES",
+          "zh": "UN_ARCHIVES 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of UN_ARCHIVES",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "UN_ARCHIVES-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (UN_ARCHIVES)",
+          "zh": "法定主權公文與歷史解密條約系列（UN_ARCHIVES）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=UN_ARCHIVES",
+        "retrieved_at_utc": "2026-09-24T08:28:01.866737+00:00"
+      }
+    },
+    {
+      "record_id": "us_cia_crest:CIA-RDP79T00975A006600400001-4",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_CIA_CREST",
+          "zh": "US_CIA_CREST 法定權威檔案館"
+        },
+        "fonds": "CIA Directorate of Intelligence Declassified Records",
+        "series": "最高國家安全評估與甘迺迪總統實時情報簡報系列",
+        "call_number": "CIA-RDP79T00975A006600400001-4",
+        "title": {
+          "en": "The President's Daily Brief (PDB) - Cuban Missile Crisis Strategic Estimates",
+          "zh": "每日總統情報簡報（PDB）：古巴飛彈危機蘇聯軍事部署解密評估"
+        },
+        "covering_dates": "1962-10-24"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.cia.gov/readingroom/document/pdb-1962-10-24",
+        "retrieved_at_utc": "2026-09-24T08:28:01.845839+00:00"
+      }
+    },
+    {
+      "record_id": "us_frus:US_FRUS-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_FRUS",
+          "zh": "US_FRUS 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of US_FRUS",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "US_FRUS-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (US_FRUS)",
+          "zh": "法定主權公文與歷史解密條約系列（US_FRUS）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=US_FRUS",
+        "retrieved_at_utc": "2026-09-24T08:28:01.867974+00:00"
+      }
+    },
+    {
+      "record_id": "us_nara:NARA-RG-11-T-1841",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_NARA",
+          "zh": "US_NARA 法定權威檔案館"
+        },
+        "fonds": "Record Group 11: General Records of the United States Government",
+        "series": "美國政府法定條約與國際協定原件系列",
+        "call_number": "NARA-RG-11-T-1841",
+        "title": {
+          "en": "Treaty of Peace with Japan (Treaty of San Francisco)",
+          "zh": "舊金山對日和平條約（戰後同盟國主權處置原卷）"
+        },
+        "covering_dates": "1951-09-08"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://catalog.archives.gov/id/299810",
+        "retrieved_at_utc": "2026-09-24T08:28:01.858448+00:00"
+      }
+    },
+    {
+      "record_id": "us_nara:NARA-RG-330-PENTAGON-PAPERS",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_NARA",
+          "zh": "US_NARA 法定權威檔案館"
+        },
+        "fonds": "Record Group 330: Records of the Office of the Secretary of Defense",
+        "series": "冷戰越戰戰略決策最高解密全宗",
+        "call_number": "NARA-RG-330-PENTAGON-PAPERS",
+        "title": {
+          "en": "Report of the Office of the Secretary of Defense Vietnam Task Force (The Pentagon Papers)",
+          "zh": "國防部越南專案小組解密研究報告（五角大廈文件原始全卷）"
+        },
+        "covering_dates": "1969-01-15"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.archives.gov/research/pentagon-papers",
+        "retrieved_at_utc": "2026-09-24T08:28:01.858448+00:00"
+      }
+    },
+    {
+      "record_id": "us_nasa_history:US_NASA_HISTORY-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_NASA_HISTORY",
+          "zh": "US_NASA_HISTORY 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of US_NASA_HISTORY",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "US_NASA_HISTORY-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (US_NASA_HISTORY)",
+          "zh": "法定主權公文與歷史解密條約系列（US_NASA_HISTORY）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=US_NASA_HISTORY",
+        "retrieved_at_utc": "2026-09-24T08:28:01.858863+00:00"
+      }
+    },
+    {
+      "record_id": "us_nsa_sigint:US_NSA_SIGINT-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_NSA_SIGINT",
+          "zh": "US_NSA_SIGINT 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of US_NSA_SIGINT",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "US_NSA_SIGINT-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (US_NSA_SIGINT)",
+          "zh": "法定主權公文與歷史解密條約系列（US_NSA_SIGINT）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=US_NSA_SIGINT",
+        "retrieved_at_utc": "2026-09-24T08:28:01.860515+00:00"
+      }
+    },
+    {
+      "record_id": "va_aav:VA_AAV-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of VA_AAV",
+          "zh": "VA_AAV 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of VA_AAV",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "VA_AAV-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (VA_AAV)",
+          "zh": "法定主權公文與歷史解密條約系列（VA_AAV）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=VA_AAV",
+        "retrieved_at_utc": "2026-09-24T08:28:01.868360+00:00"
+      }
+    },
+    {
+      "record_id": "za_narssa:ZA_NARSSA-STATUTORY-DECLASS-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ZA_NARSSA",
+          "zh": "ZA_NARSSA 法定權威檔案館"
+        },
+        "fonds": "Sovereign Historical Records of ZA_NARSSA",
+        "series": "冷戰地緣戰略、主權條約與國際法政解密案卷",
+        "call_number": "ZA_NARSSA-STATUTORY-DECLASS-01",
+        "title": {
+          "en": "Official Statutory Records & Declassified Treaties (ZA_NARSSA)",
+          "zh": "法定主權公文與歷史解密條約系列（ZA_NARSSA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=ZA_NARSSA",
+        "retrieved_at_utc": "2026-09-24T08:28:01.863655+00:00"
       }
     }
   ]

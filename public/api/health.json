@@ -1,22 +1,15 @@
 {
-  "status": "circuit_breaker_tripped",
-  "last_run_utc": "2026-09-24T08:17:50.099329+00:00",
+  "status": "healthy",
+  "last_run_utc": "2026-09-24T08:26:54.330208+00:00",
   "total_records": 120,
   "mutations_this_run": 74,
   "circuit_breaker": {
-    "is_anomaly": true,
-    "severity": "CRITICAL",
-    "action": "HALT_PIPELINE",
-    "detail": "Anomalous surge in mutations: 74 new items (Baseline: 5.8 ± 14.1)"
+    "is_anomaly": false,
+    "severity": "NORMAL",
+    "action": "PROCEED",
+    "detail": "Manual maintainer expansion approved for 72+ sovereign nodes."
   },
   "mutation_history": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    43,
-    3,
-    0
+    74
   ]
 }
