@@ -1,6 +1,6 @@
 """
 UK The National Archives (TNA) Production Adapter
-繼承 BaseAdapter 統一時間窗口，落實防禦性分頁與官方原卷存證。
+符合 TNA API 規格（純年份格式），落實統一歷史窗口與防禦性分頁。
 """
 import re
 import html
@@ -59,7 +59,7 @@ class TnaProductionAdapter(BaseAdapter):
         ingested = []
         seen_batch_ids: Set[str] = set()
 
-        # 核心改動：直接調用 BaseAdapter 的全域統一窗口
+        # 獲取純 4 位數年份（例如 "1945" 與 "1996"）
         start_year, end_year = self.get_unified_date_window()
         logger.info(f"[TNA] Applying Unified Historical Window: {start_year} to {end_year}")
 
