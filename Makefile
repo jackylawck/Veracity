@@ -1,13 +1,13 @@
 .PHONY: install test ingest-dryrun ingest check-schema clean
 
-VENV := venv
-PYTHON := $(VENV)/bin/python
-PIP := $(VENV)/bin/pip
+# 動態判斷 Python 直譯器：優先使用虛擬環境，若不存在則回退到系統環境
+PYTHON := $(shell if [ -f venv/bin/python ]; then echo venv/bin/python; else echo python3; fi)
+PIP := $(shell if [ -f venv/bin/pip ]; then echo venv/bin/pip; else echo pip; fi)
 
 install:
-	python3 -m venv $(VENV)
-	$(PIP) install --upgrade pip
-	$(PIP) install -r requirements.in
+	$(PYTHON) -m venv venv
+	venv/bin/pip install --upgrade pip
+	venv/bin/pip install --require-hashes -r requirements.lock
 
 test:
 	$(PYTHON) -m pytest -v tests/
