@@ -1,4 +1,1639 @@
 {
   "schema_version": "2.0.0",
-  "records": []
+  "records": [
+    {
+      "record_id": "tna:016d0d91-ef6a-4da0-a0f3-51be67a04da4",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "AURR",
+        "series": "AURR 21",
+        "call_number": "AURR 21/2/16",
+        "title": {
+          "en": "Reader's report by Malcolm Barnes on Cold war / by John Coatman",
+          "zh": null
+        },
+        "covering_dates": "1953"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/016d0d91-ef6a-4da0-a0f3-51be67a04da4",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924608+00:00"
+      }
+    },
+    {
+      "record_id": "tna:041c3d41-f54e-4542-bf6d-2aa3f73ebcf8",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "RIIA",
+        "series": "RIIA",
+        "call_number": "RIIA/8/1812",
+        "title": {
+          "en": "A TURNING-POINT IN THE COLD WAR? Prof A.J. Toynbee",
+          "zh": null
+        },
+        "covering_dates": "Jun 6 1950"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/041c3d41-f54e-4542-bf6d-2aa3f73ebcf8",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924539+00:00"
+      }
+    },
+    {
+      "record_id": "tna:288bc542-4724-4147-864c-4d68bfb97fa2",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "MS",
+        "series": "MS 1393 2",
+        "call_number": "MS 1393 2/239/89",
+        "title": {
+          "en": "Blamires Cold war in Hell",
+          "zh": null
+        },
+        "covering_dates": "27/09/1954 00:00:00"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/288bc542-4724-4147-864c-4d68bfb97fa2",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334238+00:00"
+      }
+    },
+    {
+      "record_id": "tna:4d51014b-2045-4b96-b2a2-b12d5b77cae6",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "RIIA",
+        "series": "RIIA",
+        "call_number": "RIIA/8/2121",
+        "title": {
+          "en": "NATO FACES THE COLD WAR Donald McLachlan",
+          "zh": null
+        },
+        "covering_dates": "Jan 27 1953"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/4d51014b-2045-4b96-b2a2-b12d5b77cae6",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194896+00:00"
+      }
+    },
+    {
+      "record_id": "tna:6259bad6-4842-44b9-b90d-d3cabc809739",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "RCH01",
+        "series": "RCH01",
+        "call_number": "RCH01/056",
+        "title": {
+          "en": "Cold War Project",
+          "zh": null
+        },
+        "covering_dates": "17 Apr 1931 - 29 Aug 2002"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/6259bad6-4842-44b9-b90d-d3cabc809739",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334189+00:00"
+      }
+    },
+    {
+      "record_id": "tna:78a57ef8-0993-444d-ac2c-e226717e8063",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "PA1716",
+        "series": "PA1716",
+        "call_number": "PA1716/5/3/155",
+        "title": {
+          "en": "Memo from Mr Golovine to Mr Saxton re. Hawker Hunter Mk.2",
+          "zh": null
+        },
+        "covering_dates": "29 April 1953"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/78a57ef8-0993-444d-ac2c-e226717e8063",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334183+00:00"
+      }
+    },
+    {
+      "record_id": "tna:8728e361-c758-42c9-a15c-25bc2eb0703a",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "RIIA",
+        "series": "RIIA",
+        "call_number": "RIIA/8/2356",
+        "title": {
+          "en": "AFGHANISTAN AND THE COLD WAR O. Trilling",
+          "zh": null
+        },
+        "covering_dates": "Dec 12 1955"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/8728e361-c758-42c9-a15c-25bc2eb0703a",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194874+00:00"
+      }
+    },
+    {
+      "record_id": "tna:9e8c720d-210b-4d23-8cdf-1402d48cb565",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "2K",
+        "series": "2K",
+        "call_number": "2K/01731",
+        "title": {
+          "en": "COLD WAR AND CIVIL DEFENCE BOOK COVERS",
+          "zh": null
+        },
+        "covering_dates": "27 Sep 2000"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/9e8c720d-210b-4d23-8cdf-1402d48cb565",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194909+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C11535005",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FCO",
+        "series": "FCO 95",
+        "call_number": "FCO 95/1570",
+        "title": {
+          "en": "BBC: exchanges of information; outline of series 'The Cold War'",
+          "zh": null
+        },
+        "covering_dates": "1973 Jan 01 - 1973 Dec 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C11535005",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924524+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C13430518",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 1093",
+        "call_number": "FO 1093/563",
+        "title": {
+          "en": "Cold War: UK strategy in Eastern Europe",
+          "zh": null
+        },
+        "covering_dates": "1949 Apr 18 - 1949 Jul 30"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C13430518",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194885+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C13430539",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 1093",
+        "call_number": "FO 1093/370",
+        "title": {
+          "en": "Cold War planning 1948",
+          "zh": null
+        },
+        "covering_dates": "1948 Jun 16 - 1948 Dec 21"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C13430539",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334195+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C13514135",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "DEFE",
+        "series": "DEFE 5",
+        "call_number": "DEFE 5/34/655",
+        "title": {
+          "en": "Memorandum Number 655 of 1951. Future Cold War Strategy.",
+          "zh": null
+        },
+        "covering_dates": "1951 Nov 12"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C13514135",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924457+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C13522928",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "DEFE",
+        "series": "DEFE 6",
+        "call_number": "DEFE 6/20/23",
+        "title": {
+          "en": "Redeployment of Allied Forces in Cold War (Withdrawn).",
+          "zh": null
+        },
+        "covering_dates": "1952 Feb 14"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C13522928",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194937+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C13523308",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "DEFE",
+        "series": "DEFE 6",
+        "call_number": "DEFE 6/26/103",
+        "title": {
+          "en": "The tasks of the Army Strategic Reserve in Cold War.",
+          "zh": null
+        },
+        "covering_dates": "1954 Dec 23"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C13523308",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924532+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C13523513",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "DEFE",
+        "series": "DEFE 6",
+        "call_number": "DEFE 6/32/166",
+        "title": {
+          "en": "Airlift for Cold and Limited War Commitments.",
+          "zh": null
+        },
+        "covering_dates": "1955 Dec 21"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C13523513",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194903+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C13523565",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "DEFE",
+        "series": "DEFE 6",
+        "call_number": "DEFE 6/34/22",
+        "title": {
+          "en": "Airlift for Cold and Limited War Commitments (Cancelled).",
+          "zh": null
+        },
+        "covering_dates": "1956 Feb 7"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C13523565",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194931+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C1440764",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "MAF",
+        "series": "MAF 195",
+        "call_number": "MAF 195/5",
+        "title": {
+          "en": "Cold storage: post war standardisation policy",
+          "zh": null
+        },
+        "covering_dates": "1947-1948"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C1440764",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334251+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C1456791",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "MAF",
+        "series": "MAF 194",
+        "call_number": "MAF 194/33",
+        "title": {
+          "en": "Cold storage for meat and similar commodities post-war arrangements",
+          "zh": null
+        },
+        "covering_dates": "1944-1954"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C1456791",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924504+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C16861712",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FCO",
+        "series": "FCO 168",
+        "call_number": "FCO 168/287",
+        "title": {
+          "en": "Information Research Department: Shell 'Cold war' report",
+          "zh": null
+        },
+        "covering_dates": "1961 Jan 1 - 1961 Dec 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C16861712",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194880+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C16861723",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FCO",
+        "series": "FCO 168",
+        "call_number": "FCO 168/298",
+        "title": {
+          "en": "Information Research Department: British business and the Cold War",
+          "zh": null
+        },
+        "covering_dates": "1962 Jan 1 - 1962 Dec 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C16861723",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924490+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C17080254",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 1110",
+        "call_number": "FO 1110/2279/18",
+        "title": {
+          "en": "The World Youth Forum: a New Cold War Technique'",
+          "zh": null
+        },
+        "covering_dates": "1961 May 1 - 1961 May 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C17080254",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924478+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C17080256",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 1110",
+        "call_number": "FO 1110/2279/20",
+        "title": {
+          "en": "The Cold War Festival'",
+          "zh": null
+        },
+        "covering_dates": "1961 July 1 - 1961 July 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C17080256",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334206+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C17080257",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 1110",
+        "call_number": "FO 1110/2279/21",
+        "title": {
+          "en": "Cold War Manoeuvres in Africa'",
+          "zh": null
+        },
+        "covering_dates": "1961 July 1 - 1961 July 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C17080257",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334234+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C17080273",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 1110",
+        "call_number": "FO 1110/2280/1",
+        "title": {
+          "en": "Cold War Manipulation of the Afro-Asian Concept'",
+          "zh": null
+        },
+        "covering_dates": "1963 Jan 1 - 1963 Jan 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C17080273",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194941+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C17081843",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FCO",
+        "series": "FCO 95",
+        "call_number": "FCO 95/2114/28",
+        "title": {
+          "en": "The Cold War and Detente'",
+          "zh": null
+        },
+        "covering_dates": "1973 Sept 1 - 1973 Sept 30"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C17081843",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334243+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C17488162",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FCO",
+        "series": "FCO 177",
+        "call_number": "FCO 177/553",
+        "title": {
+          "en": "Nuclear doctrine after the Cold War",
+          "zh": null
+        },
+        "covering_dates": "1992 Jan 1 - 1992 Dec 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C17488162",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334262+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C1824763",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "WO",
+        "series": "WO 291",
+        "call_number": "WO 291/1509",
+        "title": {
+          "en": "Psychological warfare research its role in cold war",
+          "zh": null
+        },
+        "covering_dates": "1956"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C1824763",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194945+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C2103113",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "MAF",
+        "series": "MAF 129",
+        "call_number": "MAF 129/100",
+        "title": {
+          "en": "Cold stores war damage: proposals to Treasury",
+          "zh": null
+        },
+        "covering_dates": "1944"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C2103113",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194918+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C2909578",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 371",
+        "call_number": "FO 371/152111",
+        "title": {
+          "en": "Role of uncommitted nations in Cold War",
+          "zh": null
+        },
+        "covering_dates": "1960"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C2909578",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194891+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C302408",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "DEFE",
+        "series": "DEFE 13",
+        "call_number": "DEFE 13/245",
+        "title": {
+          "en": "Future cold war policy",
+          "zh": null
+        },
+        "covering_dates": "1962-1964"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C302408",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334200+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C4341113",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "MAF",
+        "series": "MAF 99",
+        "call_number": "MAF 99/96",
+        "title": {
+          "en": "Defence: cold storage requirements in future war",
+          "zh": null
+        },
+        "covering_dates": "1950 Aug.-1953 June"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C4341113",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194914+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C4341115",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "MAF",
+        "series": "MAF 99",
+        "call_number": "MAF 99/98",
+        "title": {
+          "en": "Cold storage requirements in future war",
+          "zh": null
+        },
+        "covering_dates": "1951 Mar.-1952 Sept."
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C4341115",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334256+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C4408895",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "WO",
+        "series": "WO 216",
+        "call_number": "WO 216/288",
+        "title": {
+          "en": "Cold war and Army re-organisation: proposals by General Martel",
+          "zh": null
+        },
+        "covering_dates": "1948 Dec.-1949 Jan."
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C4408895",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924509+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C4409533",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "WO",
+        "series": "WO 216",
+        "call_number": "WO 216/926",
+        "title": {
+          "en": "Cold and limited war",
+          "zh": null
+        },
+        "covering_dates": "1955 Sept-1961 Dec"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C4409533",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334220+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C4718571",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "DO",
+        "series": "DO 35",
+        "call_number": "DO 35/9407",
+        "title": {
+          "en": "Cold war activities among Africans",
+          "zh": null
+        },
+        "covering_dates": "1959-1960"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C4718571",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334226+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C4846222",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "ADM",
+        "series": "ADM 1",
+        "call_number": "ADM 1/25109",
+        "title": {
+          "en": "Improvement of morale during cold war : increase of disturbance allowance",
+          "zh": null
+        },
+        "covering_dates": "1953"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C4846222",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924515+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C6296218",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "BT",
+        "series": "BT 13",
+        "call_number": "BT 13/90/6",
+        "title": {
+          "en": "Cold Storage after the War - Memo by Imperial Conference",
+          "zh": null
+        },
+        "covering_dates": "1918"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C6296218",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924471+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C6514896",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 371",
+        "call_number": "FO 371/152123/15/68G",
+        "title": {
+          "en": "Neutralism: role of uncommitted nations in the Cold War",
+          "zh": null
+        },
+        "covering_dates": "1960"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C6514896",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924495+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C6516856",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 371",
+        "call_number": "FO 371/153630/22912/23",
+        "title": {
+          "en": "Handling of four cold war issues on the agenda",
+          "zh": null
+        },
+        "covering_dates": "1960"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C6516856",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924464+00:00"
+      }
+    },
+    {
+      "record_id": "tna:b558b38e-4fc0-4a3d-a417-429bb5edbe5c",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "PA1716",
+        "series": "PA1716",
+        "call_number": "PA1716/5/3/18",
+        "title": {
+          "en": "Memo from Mr Golovine to Mr Chapman Armstrong Siddeley Motors: Interview with ACASOR",
+          "zh": null
+        },
+        "covering_dates": "21 August 1953"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/b558b38e-4fc0-4a3d-a417-429bb5edbe5c",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334147+00:00"
+      }
+    },
+    {
+      "record_id": "tna:c5272f0b-2f16-4338-b13d-5bc03d341bb8",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "NCUACS",
+        "series": "NCUACS 57.6.95",
+        "call_number": "NCUACS 57.6.95/A.17",
+        "title": {
+          "en": "Letter from Peierls to Lord Penney on 'cold war'",
+          "zh": null
+        },
+        "covering_dates": "1956"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/c5272f0b-2f16-4338-b13d-5bc03d341bb8",
+        "retrieved_at_utc": "2026-09-24T03:37:36.924484+00:00"
+      }
+    },
+    {
+      "record_id": "tna:d8262a65-8665-4d86-bf93-0854214b5ab0",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "PA1716",
+        "series": "PA1716",
+        "call_number": "PA1716/5/3/127",
+        "title": {
+          "en": "Secret memo from Armstrong Siddeley Motors (Mr. Golovine) to Mr HT Chapman: notes on meeting with CS(A) at Parkside on 27 June 1952",
+          "zh": null
+        },
+        "covering_dates": "30 June 1952"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/d8262a65-8665-4d86-bf93-0854214b5ab0",
+        "retrieved_at_utc": "2026-09-24T03:37:35.334172+00:00"
+      }
+    },
+    {
+      "record_id": "tna:f0db81b3-0d26-447a-aef6-85ab5fc2cc82",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "GDR",
+        "series": "GDR",
+        "call_number": "GDR/F1/1/1920/39",
+        "title": {
+          "en": "Cold Aston: Stone Tablet as War Memorial",
+          "zh": null
+        },
+        "covering_dates": "10 Apr 1920"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/f0db81b3-0d26-447a-aef6-85ab5fc2cc82",
+        "retrieved_at_utc": "2026-09-24T03:37:36.194923+00:00"
+      }
+    }
+  ]
 }

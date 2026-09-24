@@ -1,19 +1,20 @@
 {
   "status": "healthy",
-  "last_successful_run_utc": "2026-09-24T03:19:24.154373+00:00",
-  "total_records": 0,
-  "mutations_this_run": 0,
+  "last_successful_run_utc": "2026-09-24T03:37:37.425062+00:00",
+  "total_records": 43,
+  "mutations_this_run": 43,
   "circuit_breaker": {
     "is_anomaly": false,
-    "reason": "BOOTSTRAP_PHASE",
-    "detail": "Baseline accumulating: (4/5 runs recorded)."
+    "reason": "WITHIN_STATISTICAL_TOLERANCE",
+    "detail": "Mutations (43) within statistical variance."
   },
   "mutation_history": [
     0,
     0,
     0,
     0,
-    0
+    0,
+    43
   ],
   "active_adapters": [
     "UK_TNA"
