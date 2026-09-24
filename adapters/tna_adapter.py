@@ -1,6 +1,6 @@
 """
 UK The National Archives (TNA) Production Adapter
-修復 TNA 1-indexed 分頁限制 (sps.page >= 1)，落實統一歷史窗口。
+採用官方公共端點 /API/search/records，落實防禦性分頁與官方原卷存證。
 """
 import re
 import html
@@ -18,8 +18,9 @@ class AdapterIngestionError(Exception):
 
 class TnaProductionAdapter(BaseAdapter):
     NAME = "UK_TNA"
-    API_URL = "https://discovery.nationalarchives.gov.uk/API/records/v1/collection/search"
-    USER_AGENT = "VeracityLedger/2.0 (Historical Forensics Engine; Solo-Maintainer Verification)"
+    # 使用 TNA Discovery 官方公開檢索端點
+    API_URL = "https://discovery.nationalarchives.gov.uk/API/search/records"
+    USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
     def __init__(self, timeout: int = 15, max_retries: int = 3):
         self.timeout = timeout
@@ -47,6 +48,8 @@ class TnaProductionAdapter(BaseAdapter):
                     logger.warning(f"[TNA] Rate Limited (429). Retrying in {backoff}s...")
                     time.sleep(backoff)
                     continue
+                if not resp.ok:
+                    logger.error(f"[TNA] API Error {resp.status_code}: {resp.text}")
                 resp.raise_for_status()
                 return resp.json()
             except requests.RequestException as exc:
@@ -63,7 +66,6 @@ class TnaProductionAdapter(BaseAdapter):
         logger.info(f"[TNA] Applying Unified Historical Window: {start_year} to {end_year}")
 
         for page_idx in range(max_pages):
-            # TNA sps.page 必須 >= 1，因此使用 page_idx + 1 (即 1, 2, 3)
             current_page = page_idx + 1
             params = {
                 "sps.searchQuery": "Cold War",
