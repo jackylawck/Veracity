@@ -1,0 +1,9 @@
+{
+  "name": "The Veracity | 揭古",
+  "short_name": "Veracity",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "icons": []
+}
