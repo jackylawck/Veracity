@@ -1,14 +1,18 @@
 {
   "status": "healthy",
-  "last_successful_run_utc": "2026-09-24T00:00:00Z",
+  "last_successful_run_utc": "2026-09-24T02:37:50.016961+00:00",
   "total_records": 0,
   "mutations_this_run": 0,
   "circuit_breaker": {
     "is_anomaly": false,
-    "reason": "INITIAL_COLD_START",
-    "detail": "Cold start state initialized."
+    "reason": "BOOTSTRAP_PHASE",
+    "detail": "Baseline accumulating: (0/5 runs recorded)."
   },
-  "mutation_history": [],
-  "active_adapters": ["UK_TNA"],
+  "mutation_history": [
+    0
+  ],
+  "active_adapters": [
+    "UK_TNA"
+  ],
   "maintainer_mode": "Solo-Maintainer-Audited"
 }
