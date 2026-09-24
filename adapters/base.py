@@ -9,8 +9,8 @@ from datetime import datetime, timezone
 class BaseAdapter(ABC):
     NAME: str = "BASE_ADAPTER"
 
-    # 全域統一基準：1945 年（二戰結束 / 現代解密公文與情報體系起點）
-    DEFAULT_START_DATE: str = "1945-01-01"
+    # 全域統一基準年份：1945 年（二戰結束 / 現代解密公文與情報體系起點）
+    DEFAULT_START_YEAR: str = "1945"
 
     # 國際法定解密年限基準（以 30 年法則為核心）
     STATUTORY_RULE_YEARS: int = 30
@@ -19,13 +19,12 @@ class BaseAdapter(ABC):
     def get_unified_date_window(cls) -> Tuple[str, str]:
         """
         全域時間窗口計算器：
-        起始：統一為 1945-01-01
-        截止：當前年份扣除法定解密年限（例如 2026 年執行時，截止為 1996-12-31）
+        起始：統一為 1945
+        截止：當前年份扣除法定解密年限（例如 2026 年執行時，截止為 1996）
         """
         current_year = datetime.now(timezone.utc).year
-        statutory_end_year = current_year - cls.STATUTORY_RULE_YEARS
-        end_date = f"{statutory_end_year}-12-31"
-        return cls.DEFAULT_START_DATE, end_date
+        statutory_end_year = str(current_year - cls.STATUTORY_RULE_YEARS)
+        return cls.DEFAULT_START_YEAR, statutory_end_year
 
     @abstractmethod
     def fetch_records(self) -> List[Dict[str, Any]]:
