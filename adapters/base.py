@@ -3,20 +3,20 @@ Base Adapter Interface
 定義全域統一的時間窗口基準與介面契約。
 """
 from abc import ABC, abstractmethod
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Tuple
 from datetime import datetime, timezone
 
 class BaseAdapter(ABC):
     NAME: str = "BASE_ADAPTER"
-    
-    # 全域統一基準：1945 年（二戰結束 / 現代多邊情報體系起點）
+
+    # 全域統一基準：1945 年（二戰結束 / 現代解密公文與情報體系起點）
     DEFAULT_START_DATE: str = "1945-01-01"
-    
-    # 國際法定解密審查年限基準（以 30 年法則為核心）
+
+    # 國際法定解密年限基準（以 30 年法則為核心）
     STATUTORY_RULE_YEARS: int = 30
 
     @classmethod
-    def get_unified_date_window(cls) -> tuple[str, str]:
+    def get_unified_date_window(cls) -> Tuple[str, str]:
         """
         全域時間窗口計算器：
         起始：統一為 1945-01-01
