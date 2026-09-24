@@ -8,6 +8,7 @@ import time
 import logging
 import requests
 from typing import List, Dict, Any, Optional, Set
+from datetime import datetime, timezone
 from adapters.base import BaseAdapter
 
 logger = logging.getLogger("Veracity.Adapters.TNA")
@@ -61,11 +62,9 @@ class TnaProductionAdapter(BaseAdapter):
         start_year, end_year = self.get_unified_date_window()
         logger.info(f"[TNA] Applying Unified Historical Window: {start_year} to {end_year}")
 
-        # TNA 接受之有效查詢字串
         query_text = f"Cold War {start_year}-{end_year}"
 
         for page_idx in range(max_pages):
-            # 不直接傳遞易觸發 400 的 sps.startDate/endDate 參數，改用 TNA 官方建議之全文語法檢索
             params = {
                 "sps.searchQuery": query_text,
                 "sps.heldByFilter": "TNA",
