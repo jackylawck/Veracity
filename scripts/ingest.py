@@ -80,13 +80,25 @@ def main():
             logger.warning(f"Could not parse previous health snapshot: {e}")
 
     active_adapters = discover_adapters()
+    if not active_adapters:
+        logger.critical("No valid adapters discovered in adapters/. Halting pipeline.")
+        sys.exit(1)
+
     raw_ingested = []
+    failed_adapter_count = 0
+
     for adapter in active_adapters:
         try:
             records = adapter.fetch_records()
             raw_ingested.extend(records)
         except Exception as e:
+            failed_adapter_count += 1
             logger.error(f"Sandbox Isolation Alert: [{adapter.NAME}] failed: {e}")
+
+    # 若所有註冊的適配器全部遭遇異常，必須中斷流程而非靜默通過
+    if failed_adapter_count == len(active_adapters):
+        logger.critical("All registered adapters failed during execution. Halting commit.")
+        sys.exit(1)
 
     mutations = 0
     for r in raw_ingested:
@@ -99,6 +111,11 @@ def main():
             mutations += 1
 
     final_list = sorted(existing_records.values(), key=lambda x: x["record_id"])
+
+    # 冷啟動與資料安全防線：避免覆蓋輸出完全為 0 筆的無效空總帳
+    if len(final_list) == 0:
+        logger.error("Ledger contains 0 records after ingestion pass. Aborting to avoid empty ledger commit.")
+        sys.exit(1)
 
     guard = RollingAnomalyGuard(mutation_history)
     guard_eval = guard.evaluate(current_mutations=mutations)
