@@ -496,6 +496,44 @@
       }
     },
     {
+      "record_id": "tna:C13522979",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "DEFE",
+        "series": "DEFE 6",
+        "call_number": "DEFE 6/21/74",
+        "title": {
+          "en": "The Defence of Malaya in the Cold War.",
+          "zh": null
+        },
+        "covering_dates": "1952 June 18"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C13522979",
+        "retrieved_at_utc": "2026-09-24T07:53:48.487987+00:00"
+      }
+    },
+    {
       "record_id": "tna:C13523308",
       "verification_level": "metadata_only",
       "fixity": {
@@ -876,6 +914,44 @@
       }
     },
     {
+      "record_id": "tna:C17080259",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FO",
+        "series": "FO 1110",
+        "call_number": "FO 1110/2279/23",
+        "title": {
+          "en": "Cold War Role for 'National Democracies''",
+          "zh": null
+        },
+        "covering_dates": "1961 Aug 1 - 1961 Aug 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C17080259",
+        "retrieved_at_utc": "2026-09-24T07:53:47.626879+00:00"
+      }
+    },
+    {
       "record_id": "tna:C17080273",
       "verification_level": "metadata_only",
       "fixity": {
@@ -987,6 +1063,44 @@
       "provenance": {
         "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C17488162",
         "retrieved_at_utc": "2026-09-24T03:37:35.334262+00:00"
+      }
+    },
+    {
+      "record_id": "tna:C17682769",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "The National Archives (Kew, Richmond)",
+          "zh": "英國國家檔案館 (Kew)"
+        },
+        "fonds": "FCO",
+        "series": "FCO 49",
+        "call_number": "FCO 49/1158",
+        "title": {
+          "en": "Cold War: threat from the Soviet Union striving for superior power",
+          "zh": null
+        },
+        "covering_dates": "1983 Jan 1 - 1983 Dec 31"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Open_Government_Licence_v3",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Subject to UK Crown Copyright & OGL v3.0 conditions. Not formal legal advice.",
+          "zh": "受英國王室版權及 OGL v3.0 規範。非正式法律意見。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://discovery.nationalarchives.gov.uk/details/r/C17682769",
+        "retrieved_at_utc": "2026-09-24T07:53:49.239967+00:00"
       }
     },
     {
