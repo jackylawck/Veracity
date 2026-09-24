@@ -5,34 +5,34 @@ on:
     - cron: '0 4 * * *'
   workflow_dispatch:
 
+# 賦予寫入倉庫與 Sigstore OIDC 簽章權限
 permissions:
-  contents: read
+  contents: write
+  id-token: write
 
 jobs:
   ingest-and-sign:
     runs-on: ubuntu-latest
     timeout-minutes: 15
-    permissions:
-      contents: write
-      id-token: write
 
     steps:
-      - name: Checkout Repository
+      - name: Hardened Checkout
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python Runtime
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
-          cache-dependency-path: 'requirements.in'
+          cache-dependency-path: 'requirements.lock'
 
       - name: Install Pinned Dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.in
+          pip install --require-hashes -r requirements.lock
 
       - name: Run Hermetic Unit Tests
         run: python -m pytest tests/
@@ -55,19 +55,22 @@ jobs:
       - name: Generate CycloneDX SBOM
         run: |
           python -m pip install cyclonedx-bom
-          cyclonedx-py requirements requirements.in --output-format json --output-file public/api/bom.json
+          cyclonedx-py requirements requirements.lock --output-format json --output-file public/api/bom.json
 
       - name: Non-blocking Wayback Archive Snapshot
         continue-on-error: true
         run: |
-          curl -s -X POST "https://web.archive.org/save/https://jackylawck.github.io/the-veracity/api/records-latest.json" > /dev/null || true
+          curl -s -X POST "https://web.archive.org/save/https://jackylawck.github.io/Veracity/api/records-latest.json" > /dev/null || true
 
-      - name: Authenticated Push Back to Main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit & Push Verified Ledger
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "Veracity-Autonomous-Engine"
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add public/api/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(ledger): autonomous cryptographic update" && git push origin main)
+          git status
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(ledger): ingest verified primary dossiers [skip ci]"
+            git push origin main
+          else
+            echo "No mutations detected. Ledger up to date."
+          fi
