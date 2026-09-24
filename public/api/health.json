@@ -1,12 +1,12 @@
 {
   "status": "healthy",
-  "last_successful_run_utc": "2026-09-24T07:54:39.719639+00:00",
+  "last_successful_run_utc": "2026-09-24T08:08:13.749711+00:00",
   "total_records": 46,
-  "mutations_this_run": 3,
+  "mutations_this_run": 0,
   "circuit_breaker": {
     "is_anomaly": false,
     "reason": "WITHIN_STATISTICAL_TOLERANCE",
-    "detail": "Mutations (3) within statistical variance."
+    "detail": "Mutations (0) within statistical variance."
   },
   "mutation_history": [
     0,
@@ -15,7 +15,8 @@
     0,
     0,
     43,
-    3
+    3,
+    0
   ],
   "active_adapters": [
     "TW_HISTORICA",
