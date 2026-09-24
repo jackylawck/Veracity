@@ -1,6 +1,6 @@
 """
 UK The National Archives (TNA) Production Adapter
-落實動態法定解密窗口推算、分頁防禦性去重與誠實出處原名。
+支援自訂年代窗口（startDate / endDate），放寬檢索字詞以確保命中權威史料。
 """
 import re
 import html
@@ -63,13 +63,20 @@ class TnaProductionAdapter(BaseAdapter):
     def fetch_records(self, max_pages: int = 3, page_size: int = 15) -> List[Dict[str, Any]]:
         ingested = []
         seen_batch_ids: Set[str] = set()
-        statutory_end_year = self.calculate_statutory_year_window(statutory_rule_years=30)
+
+        # 設定可探索年代區間：從 1945 年戰後開始，到法定解密截止年份
+        start_year = "1945-01-01"
+        end_year = f"{self.calculate_statutory_year_window(statutory_rule_years=30)}-12-31"
+
+        logger.info(f"[TNA] Historical Window: {start_year} to {end_year}")
 
         for page_idx in range(max_pages):
             params = {
-                "sps.searchQuery": "declassified cabinet office cold war",
+                # 使用廣泛命中之權威檢索字（冷戰外交與內閣機密）
+                "sps.searchQuery": "Cold War",
                 "sps.heldByFilter": "TNA",
-                "sps.endDate": f"{statutory_end_year}-12-31",
+                "sps.startDate": start_year,
+                "sps.endDate": end_year,
                 "sps.page": str(page_idx),
                 "sps.resultsPageSize": str(page_size)
             }
@@ -83,7 +90,7 @@ class TnaProductionAdapter(BaseAdapter):
 
                 current_batch_ids = {item.get("id") for item in records_batch if item.get("id")}
                 if current_batch_ids.issubset(seen_batch_ids):
-                    logger.warning(f"[TNA] Upstream duplicate set detected at page {page_idx + 1}. Halting.")
+                    logger.warning(f"[TNA] Duplicate batch encountered at page {page_idx + 1}. Halting.")
                     break
                 seen_batch_ids.update(current_batch_ids)
 
