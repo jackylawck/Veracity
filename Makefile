@@ -7,7 +7,7 @@ PIP := $(VENV)/bin/pip
 install:
 	python3 -m venv $(VENV)
 	$(PIP) install --upgrade pip
-	$(PIP) install --require-hashes -r requirements.lock
+	$(PIP) install -r requirements.in
 
 test:
 	$(PYTHON) -m pytest -v tests/
