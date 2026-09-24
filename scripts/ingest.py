@@ -90,7 +90,6 @@ def main():
     raw_ingested = []
     failed_adapter_count = 0
 
-    # 🌟 核心採集迴圈：整合線上優先與法定種子回退機制
     for adapter in active_adapters:
         adapter_name = getattr(adapter, "NAME", adapter.__class__.__name__)
         try:
@@ -99,18 +98,15 @@ def main():
                 raw_ingested.extend(records)
                 logger.info(f"[{adapter_name}] Successfully ingested {len(records)} live items.")
             else:
-                # 當線上 API 傳回 0 筆時，啟動權威種子回退
                 fallback = adapter.get_curated_baseline_records()
                 raw_ingested.extend(fallback)
                 logger.info(f"[{adapter_name}] Online endpoint returned 0. Injected {len(fallback)} curated authority records.")
         except Exception as e:
             failed_adapter_count += 1
             logger.error(f"Sandbox Isolation Alert: [{adapter_name}] execution failed ({e}). Activating curated fallback.")
-            # 當遭遇 403 (Cloudflare) 或斷網異常時，啟動權威種子回退
             fallback = adapter.get_curated_baseline_records()
             raw_ingested.extend(fallback)
 
-    # 若所有註冊的適配器全部遭遇異常且無任何產出，必須中斷流程而非靜默通過
     if failed_adapter_count == len(active_adapters) and len(raw_ingested) == 0:
         logger.critical("All registered adapters failed without any records. Halting commit.")
         sys.exit(1)
@@ -127,7 +123,6 @@ def main():
 
     final_list = sorted(existing_records.values(), key=lambda x: x["record_id"])
 
-    # 冷啟動與資料安全防線：避免覆蓋輸出完全為 0 筆的無效空總帳
     if len(final_list) == 0:
         logger.error("Ledger contains 0 records after ingestion pass. Aborting to avoid empty ledger commit.")
         sys.exit(1)
@@ -135,7 +130,6 @@ def main():
     guard = RollingAnomalyGuard(mutation_history)
     guard_eval = guard.evaluate(current_mutations=mutations)
 
-    # 如果歷史紀錄小於 3 次，視為系統擴容初始化期，不阻斷提交
     is_expanding = len(mutation_history) < 3
     if guard_eval["is_anomaly"] and guard_eval.get("severity") == "CRITICAL" and not is_expanding:
         logger.critical(f"Circuit Breaker TRIPPED: {guard_eval['detail']}")

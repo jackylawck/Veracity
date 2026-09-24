@@ -8,30 +8,16 @@ from datetime import datetime, timezone
 
 class BaseAdapter(ABC):
     NAME: str = "BASE_ADAPTER"
-
-    # 全域統一基準年份：1945 年（二戰結束 / 現代解密公文與情報體系起點）
     DEFAULT_START_YEAR: str = "1945"
-
-    # 國際法定解密年限基準（以 30 年法則為核心）
     STATUTORY_RULE_YEARS: int = 30
 
     @classmethod
     def get_unified_date_window(cls) -> Tuple[str, str]:
-        """
-        全域時間窗口計算器：
-        起始：統一為 1945
-        截止：當前年份扣除法定解密年限（例如 2026 年執行時，截止為 1996）
-        """
         current_year = datetime.now(timezone.utc).year
         statutory_end_year = str(current_year - cls.STATUTORY_RULE_YEARS)
         return cls.DEFAULT_START_YEAR, statutory_end_year
 
     def get_curated_baseline_records(self) -> List[Dict[str, Any]]:
-        """
-        當海外機構線上 API 遭遇 403 (Cloudflare)、404 維護或阻擋時，
-        提供該主權機構具備國際法證地位的里程碑法定解密公文種子，
-        確保總帳具備完整的跨國比對鏈。
-        """
         start_y, end_y = self.get_unified_date_window()
         now_iso = datetime.now(timezone.utc).isoformat()
         name = getattr(self, "NAME", "")
@@ -242,10 +228,7 @@ class BaseAdapter(ABC):
             ]
         }
 
-        # 如果本適配器名稱有定義專屬核心種子，則回傳專屬種子
         raw_items = seeds_db.get(name, [])
-        
-        # 若尚未特別定義專屬種子，提供符合國際檔案學格式之標準法定主權檔案
         if not raw_items:
             raw_items = [
                 {
@@ -299,5 +282,4 @@ class BaseAdapter(ABC):
 
     @abstractmethod
     def fetch_records(self) -> List[Dict[str, Any]]:
-        """採集並回傳符合 schemas/record.schema.json 的檔案清單。"""
         pass
