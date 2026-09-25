@@ -1,6 +1,6 @@
 """
 UK The National Archives (TNA) Production Adapter
-採用官方公共端點 /API/search/records，落實防禦性分頁與官方原卷存證。
+採用官方公共端點 /API/search/records，落實法定 30 年滾動時間窗口、防禦性分頁與官方原卷存證。
 """
 import re
 import html
@@ -18,7 +18,6 @@ class AdapterIngestionError(Exception):
 
 class TnaProductionAdapter(BaseAdapter):
     NAME = "UK_TNA"
-    # 使用 TNA Discovery 官方公開檢索端點
     API_URL = "https://discovery.nationalarchives.gov.uk/API/search/records"
     USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
@@ -58,7 +57,12 @@ class TnaProductionAdapter(BaseAdapter):
                 time.sleep(2 ** attempt)
         raise AdapterIngestionError("Retry budget exhausted.")
 
-    def fetch_records(self, max_pages: int = 3, page_size: int = 15) -> List[Dict[str, Any]]:
+    def fetch_records(self, max_pages: int = 6, page_size: int = 25) -> List[Dict[str, Any]]:
+        """
+        採集 TNA 官方檔案：
+        - 預設採集 6 頁，每頁 25 筆（最多獲取 150 筆真實公文）
+        - 帶入法定起始與截止年份過濾
+        """
         ingested = []
         seen_batch_ids: Set[str] = set()
 
@@ -68,8 +72,9 @@ class TnaProductionAdapter(BaseAdapter):
         for page_idx in range(max_pages):
             current_page = page_idx + 1
             params = {
-                "sps.searchQuery": "Cold War",
+                "sps.searchQuery": "Cold War declassified foreign affairs",
                 "sps.heldByFilter": "TNA",
+                "sps.dateFilter": f"{start_year}-{end_year}",
                 "sps.page": str(current_page),
                 "sps.resultsPageSize": str(page_size)
             }
@@ -114,7 +119,7 @@ class TnaProductionAdapter(BaseAdapter):
                                 "en": clean_title,
                                 "zh": None
                             },
-                            "covering_dates": item.get("coveringDates", "Historical")
+                            "covering_dates": item.get("coveringDates", f"{start_year}-{end_year}")
                         },
                         "heuristic_clues": {
                             "phase_2_status": "STUB_ACTIVE"
@@ -134,7 +139,7 @@ class TnaProductionAdapter(BaseAdapter):
                     }
                     ingested.append(record)
 
-                time.sleep(0.5)
+                time.sleep(0.3)
 
             except Exception as e:
                 logger.error(f"[TNA] Page {current_page} isolated failure: {e}")
