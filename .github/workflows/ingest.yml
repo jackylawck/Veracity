@@ -2,7 +2,8 @@ name: Veracity Autonomous Ingestion & Keyless Signature
 
 on:
   schedule:
-    - cron: '0 4 * * *'
+    # 每天 UTC 02:15 (香港時間 10:15) 自動執行一次，避開整點排隊高峰
+    - cron: '15 2 * * *'
   workflow_dispatch:
 
 # 賦予寫入倉庫與 Sigstore OIDC 簽章權限
@@ -13,7 +14,7 @@ permissions:
 jobs:
   ingest-and-sign:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Hardened Checkout
@@ -21,6 +22,7 @@ jobs:
         with:
           ref: main
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Setup Python Runtime
         uses: actions/setup-python@v5
@@ -38,7 +40,7 @@ jobs:
         run: python -m pytest tests/
 
       - name: Execute Autonomous Ingestion
-        run: python -m scripts.ingest
+        run: python scripts/ingest.py
 
       - name: Gatekeeper Enforce Schema Compliance
         run: make check-schema
@@ -66,11 +68,11 @@ jobs:
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add public/api/
-          git status
+          git pull origin main --rebase
+          git add public/api/records-latest.json public/api/records-latest.json.bundle public/api/health.json public/api/bom.json
           if ! git diff --staged --quiet; then
-            git commit -m "chore(ledger): ingest verified primary dossiers [skip ci]"
+            git commit -m "chore(ledger): autonomous audit & verified primary dossiers update [skip ci]"
             git push origin main
           else
-            echo "No mutations detected. Ledger up to date."
+            echo "No mutations detected. Ledger is fully synchronized and healthy."
           fi
