@@ -2,7 +2,7 @@ name: Veracity Autonomous Ingestion & Keyless Signature
 
 on:
   schedule:
-    - cron: "15 2 * * *"
+    - cron: '15 2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -25,8 +25,9 @@ jobs:
       - name: Setup Python Runtime
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-          cache: "pip"
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'requirements.lock'
 
       - name: Install Dependencies
         run: |
@@ -41,8 +42,7 @@ jobs:
 
       - name: Verify Ledger Schema Output
         run: |
-          python -c "import json; data = json.load(open(\"public/api/records-latest.json\", encoding=\"utf-8\")); assert \"records\" in data and len(data[\"records\"]) > 0; print(f\"Ledger integrity verified: {len(data[\x27records\x27])} dossiers active.\")"
-
+          python -c 'import json; data = json.load(open("public/api/records-latest.json", encoding="utf-8")); assert "records" in data and len(data["records"]) > 0; print(f"Ledger integrity verified: {len(data["records"])} dossiers active.)"'
       - name: Setup Sigstore Cosign
         uses: sigstore/cosign-installer@v3.5.0
 
