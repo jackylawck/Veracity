@@ -61,8 +61,8 @@ jobs:
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git pull origin main --rebase
           git add public/api/
+          git pull origin main --rebase --autostash
           if ! git diff --staged --quiet; then
             git commit -m "chore(ledger): autonomous audit & primary dossiers update [skip ci]"
             git push origin main
