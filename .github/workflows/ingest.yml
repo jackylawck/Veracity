@@ -42,7 +42,8 @@ jobs:
 
       - name: Verify Ledger Schema Output
         run: |
-          python -c 'import json; data = json.load(open("public/api/records-latest.json", encoding="utf-8")); assert "records" in data and len(data["records"]) > 0; print(f"Ledger integrity verified: {len(data["records"])} dossiers active.)"'
+          python -c 'import json; d = json.load(open("public/api/records-latest.json", encoding="utf-8")); recs = d.get("records", []); assert len(recs) > 0; print("Ledger integrity verified: " + str(len(recs)) + " dossiers active.")'
+
       - name: Setup Sigstore Cosign
         uses: sigstore/cosign-installer@v3.5.0
 
@@ -55,17 +56,4 @@ jobs:
       - name: Non-blocking Wayback Archive Snapshot
         continue-on-error: true
         run: |
-          curl -s -X POST "https://web.archive.org/save/https://jackylawck.github.io/Veracity/api/records-latest.json" > /dev/null || true
-
-      - name: Commit & Push Verified Ledger
-        run: |
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git pull origin main --rebase
-          git add public/api/
-          if ! git diff --staged --quiet; then
-            git commit -m "chore(ledger): autonomous audit & primary dossiers update [skip ci]"
-            git push origin main
-          else
-            echo "No mutations detected. Ledger is fully synchronized and healthy."
-          fi
+          curl -s -X POST (šÎ‹ËİÙX‹˜\˜Ú]™K›Ü™ËÜØ]™KÚÎ‹ËÚ˜XÚŞ[]ØÚË™Ú]X‹š[ËÕ™\˜XÚ]KØ\KÜ™XÛÜ™Ë[]\İšœÛÛˆˆˆÙ]‹Û[YB‚ˆH˜[YNˆÛÛ[Z]	ˆ\Ú™\šYšYYYÙ\‚ˆ[ˆˆÚ]ÛÛ™šYÈKYÛØ˜[\Ù\‹™[XZ[NNŠÙÚ]X‹XXİ[ÛœÖØ›İP\Ù\œË››Ü™\K™Ú]X‹˜ÛÛH‚ˆÚ]ÛÛ™šYÈKYÛØ˜[\Ù\‹›˜[YH™Ú]X‹XXİ[ÛœÖØ›İH‚ˆÚ][ÜšYÚ[ˆXZ[ˆK\™X˜\ÙBˆÚ]YX›XËØ\KÂˆYˆHÚ]Y™ˆK\İYÙYK\]ZY]È[‚ˆÚ]ÛÛ[Z][H˜ÚÜ™JYÙ\ŠNˆ]]Û›Û[İ\È]Y]	ˆš[X\HÜÜÚY\œÈ\]HÜÚÚ\ÚWH‚ˆÚ]\ÚÜšYÚ[ˆXZ[‚ˆ[ÙBˆXÚÈ“›È]]][ÛœÈ]XİYˆYÙ\ˆ\È[HŞ[˜Ú›Ûš^™Y[™X[Kˆ‚ˆšB
