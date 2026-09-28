@@ -40,6 +40,44 @@
       }
     },
     {
+      "record_id": "ar_agn:AR_AGN-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of AR_AGN",
+          "zh": "AR_AGN 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of AR_AGN",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "AR_AGN-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (AR_AGN)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（AR_AGN）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=AR_AGN",
+        "retrieved_at_utc": "2026-09-28T09:00:59.971959+00:00"
+      }
+    },
+    {
       "record_id": "asia_anri:ANRI-KAA-1955-FINAL",
       "verification_level": "metadata_only",
       "fixity": {
@@ -75,6 +113,44 @@
       "provenance": {
         "source_manifest_url": "https://anri.go.id/publikasi/arsip/kaa-1955",
         "retrieved_at_utc": "2026-09-24T08:28:01.854000+00:00"
+      }
+    },
+    {
+      "record_id": "asia_imtfe_tokyo:IMTFE-EXHIBIT-1183",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ASIA_IMTFE_TOKYO",
+          "zh": "ASIA_IMTFE_TOKYO 法定權威檔案館"
+        },
+        "fonds": "International Prosecution Section (IPS) Exhibits",
+        "series": "中國戰區戰爭犯罪、難民救濟與國際委員會呈堂書證系列",
+        "call_number": "IMTFE-EXHIBIT-1183",
+        "title": {
+          "en": "IMTFE Prosecution Exhibit No. 1183: Nanking Atrocity Testimonies and Field Evidence",
+          "zh": "遠東國際軍事法庭第1183號檢方呈堂證物：南京暴行調查與現場證言原卷"
+        },
+        "covering_dates": "1946-07-26"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://imtfe.law.virginia.edu/collections/prosecution-exhibits",
+        "retrieved_at_utc": "2026-09-28T09:03:08.610021+00:00"
       }
     },
     {
@@ -154,6 +230,44 @@
       }
     },
     {
+      "record_id": "asia_jacar:JACAR-A03022987000",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ASIA_JACAR",
+          "zh": "ASIA_JACAR 法定權威檔案館"
+        },
+        "fonds": "國立公文書館內閣文庫歷史全宗",
+        "series": "波茨坦宣言接受、盟軍佔領軍進駐與二戰終戰原始公文",
+        "call_number": "JACAR-A03022987000",
+        "title": {
+          "en": "Imperial Rescript on the Termination of the War (Gyokuon-hoso Master Record)",
+          "zh": "日本國立公文書館（JACAR）：終戰詔書原件與降書簽署內閣解密檔案"
+        },
+        "covering_dates": "1945-08-14"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.jacar.go.jp/",
+        "retrieved_at_utc": "2026-09-28T09:04:26.364073+00:00"
+      }
+    },
+    {
       "record_id": "asia_nad:ASIA_NAD-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -189,6 +303,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=ASIA_NAD",
         "retrieved_at_utc": "2026-09-24T08:28:01.857658+00:00"
+      }
+    },
+    {
+      "record_id": "asia_nad:ASIA_NAD-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ASIA_NAD",
+          "zh": "ASIA_NAD 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of ASIA_NAD",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "ASIA_NAD-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (ASIA_NAD)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（ASIA_NAD）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=ASIA_NAD",
+        "retrieved_at_utc": "2026-09-28T09:04:40.724538+00:00"
       }
     },
     {
@@ -230,6 +382,44 @@
       }
     },
     {
+      "record_id": "asia_nat:ASIA_NAT-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ASIA_NAT",
+          "zh": "ASIA_NAT 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of ASIA_NAT",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "ASIA_NAT-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (ASIA_NAT)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（ASIA_NAT）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=ASIA_NAT",
+        "retrieved_at_utc": "2026-09-28T09:06:12.882310+00:00"
+      }
+    },
+    {
       "record_id": "au_naa:AU_NAA-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -265,6 +455,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=AU_NAA",
         "retrieved_at_utc": "2026-09-24T08:28:01.858074+00:00"
+      }
+    },
+    {
+      "record_id": "au_naa:AU_NAA-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of AU_NAA",
+          "zh": "AU_NAA 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of AU_NAA",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "AU_NAA-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (AU_NAA)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（AU_NAA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=AU_NAA",
+        "retrieved_at_utc": "2026-09-28T09:04:47.285662+00:00"
       }
     },
     {
@@ -306,6 +534,44 @@
       }
     },
     {
+      "record_id": "ca_lac:CA_LAC-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CA_LAC",
+          "zh": "CA_LAC 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of CA_LAC",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "CA_LAC-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (CA_LAC)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（CA_LAC）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CA_LAC",
+        "retrieved_at_utc": "2026-09-28T09:01:24.786536+00:00"
+      }
+    },
+    {
       "record_id": "cn_cas:CN_CAS-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -341,6 +607,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CN_CAS",
         "retrieved_at_utc": "2026-09-24T08:28:01.844431+00:00"
+      }
+    },
+    {
+      "record_id": "cn_cas:CN_CAS-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_CAS",
+          "zh": "CN_CAS 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of CN_CAS",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "CN_CAS-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (CN_CAS)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（CN_CAS）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CN_CAS",
+        "retrieved_at_utc": "2026-09-28T09:01:26.811047+00:00"
       }
     },
     {
@@ -382,6 +686,44 @@
       }
     },
     {
+      "record_id": "cn_fma:FMA-1954-TI-002",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_FMA",
+          "zh": "CN_FMA 法定權威檔案館"
+        },
+        "fonds": "Ministry of Foreign Affairs Declassified Archives",
+        "series": "互相尊重主權與領土完整、互不侵犯外交奠基原卷",
+        "call_number": "FMA-1954-TI-002",
+        "title": {
+          "en": "Authentic Text of the Five Principles of Peaceful Coexistence (China-India Agreement 1954)",
+          "zh": "中印關於中國西藏地方和印度之間的通商和交通協定（和平共處五項原則原卷）"
+        },
+        "covering_dates": "1954-04-29"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.mfa.gov.cn/web/ziliao/wzda/",
+        "retrieved_at_utc": "2026-09-28T09:01:35.925063+00:00"
+      }
+    },
+    {
       "record_id": "cn_naac:NAAC-1949-DIR-001",
       "verification_level": "metadata_only",
       "fixity": {
@@ -417,6 +759,44 @@
       "provenance": {
         "source_manifest_url": "https://services.saac.gov.cn/record/detail/1949-001",
         "retrieved_at_utc": "2026-09-24T08:28:01.845129+00:00"
+      }
+    },
+    {
+      "record_id": "cn_naac:NAAC-1954-GENEVA-MIN",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_NAAC",
+          "zh": "CN_NAAC 法定權威檔案館"
+        },
+        "fonds": "外交部早期對外條約與重大多邊國際會議歷史檔案",
+        "series": "印度支那和平解決、朝鮮停戰與大國多邊外交原卷",
+        "call_number": "NAAC-1954-GENEVA-MIN",
+        "title": {
+          "en": "Declassified Minutes of the Chinese Delegation to the 1954 Geneva Conference",
+          "zh": "中華人民共和國代表團出席1954年日內瓦會議解密代表團會談全卷"
+        },
+        "covering_dates": "1954-07-21"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://services.saac.gov.cn/geneva-1954",
+        "retrieved_at_utc": "2026-09-28T09:01:45.386674+00:00"
       }
     },
     {
@@ -458,6 +838,44 @@
       }
     },
     {
+      "record_id": "cn_nlc:CN_NLC-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_NLC",
+          "zh": "CN_NLC 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of CN_NLC",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "CN_NLC-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (CN_NLC)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（CN_NLC）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CN_NLC",
+        "retrieved_at_utc": "2026-09-28T09:01:46.714214+00:00"
+      }
+    },
+    {
       "record_id": "cn_pku:CN_PKU-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -493,6 +911,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CN_PKU",
         "retrieved_at_utc": "2026-09-24T08:28:01.862024+00:00"
+      }
+    },
+    {
+      "record_id": "cn_pku:CN_PKU-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CN_PKU",
+          "zh": "CN_PKU 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of CN_PKU",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "CN_PKU-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (CN_PKU)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（CN_PKU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CN_PKU",
+        "retrieved_at_utc": "2026-09-28T09:05:34.103605+00:00"
       }
     },
     {
@@ -534,6 +990,82 @@
       }
     },
     {
+      "record_id": "cz_na:CZ_NA-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of CZ_NA",
+          "zh": "CZ_NA 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of CZ_NA",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "CZ_NA-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (CZ_NA)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（CZ_NA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=CZ_NA",
+        "retrieved_at_utc": "2026-09-28T09:01:54.087023+00:00"
+      }
+    },
+    {
+      "record_id": "de_barch:BArch-B-136-1990-2Plus4",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of DE_BARCH",
+          "zh": "DE_BARCH 法定權威檔案館"
+        },
+        "fonds": "Bundeskanzleramt und Ministerium für Auswärtige Angelegenheiten",
+        "series": "四大同盟國放棄駐德主權與兩德統一部署歷史全宗",
+        "call_number": "BArch-B-136-1990-2Plus4",
+        "title": {
+          "en": "Treaty on the Final Settlement with Respect to Germany (Two Plus Four Agreement)",
+          "zh": "德國聯邦檔案館：最終解決德國問題條約（二加四條約東西德統一原卷）"
+        },
+        "covering_dates": "1990-09-12"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.bundesarchiv.de/",
+        "retrieved_at_utc": "2026-09-28T09:02:10.802229+00:00"
+      }
+    },
+    {
       "record_id": "de_barch:DE_BARCH-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -572,6 +1104,44 @@
       }
     },
     {
+      "record_id": "de_stasi_bstu:BStU-MfS-HA-VI-1092",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of DE_STASI_BSTU",
+          "zh": "DE_STASI_BSTU 法定權威檔案館"
+        },
+        "fonds": "Hauptabteilung VI: Passkontrolle und Grenzüberschreitender Verkehr",
+        "series": "冷戰柏林分界線過境身分審查與情報通訊案卷",
+        "call_number": "BStU-MfS-HA-VI-1092",
+        "title": {
+          "en": "Stasi BStU: Declassified Dossier on Western Diplomatic Escort & Border Surveillance",
+          "zh": "史塔西檔案：駐東德西方外交人員與查理檢查哨常規監控全宗"
+        },
+        "covering_dates": "1975-05-18"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.stasi-mediathek.de/archiv",
+        "retrieved_at_utc": "2026-09-28T09:05:55.214232+00:00"
+      }
+    },
+    {
       "record_id": "de_stasi_bstu:BStU-MfS-HVA-7412",
       "verification_level": "metadata_only",
       "fixity": {
@@ -607,6 +1177,44 @@
       "provenance": {
         "source_manifest_url": "https://www.stasi-mediathek.de/medien/hva-grenze",
         "retrieved_at_utc": "2026-09-24T08:28:01.864778+00:00"
+      }
+    },
+    {
+      "record_id": "france_an:FR-AN-BB-30-1724",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of FRANCE_AN",
+          "zh": "FRANCE_AN 法定權威檔案館"
+        },
+        "fonds": "Ministère de la Justice et Gouvernement Provisoire",
+        "series": "戰後維琪政權法令廢除與法蘭西第四共和國重建法律全卷",
+        "call_number": "FR-AN-BB-30-1724",
+        "title": {
+          "en": "Ordonnance du 9 août 1944 relative au rétablissement de la légalité républicaine",
+          "zh": "法國國家檔案館：戴高樂將軍光復巴黎與恢復共和國合法性法令正式原卷"
+        },
+        "covering_dates": "1944-08-09"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.archives-nationales.culture.gouv.fr/",
+        "retrieved_at_utc": "2026-09-28T09:02:09.229464+00:00"
       }
     },
     {
@@ -762,6 +1370,44 @@
       }
     },
     {
+      "record_id": "global_cwihp:GLOBAL_CWIHP-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_CWIHP",
+          "zh": "GLOBAL_CWIHP 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_CWIHP",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_CWIHP-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_CWIHP)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_CWIHP）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_CWIHP",
+        "retrieved_at_utc": "2026-09-28T09:06:49.981437+00:00"
+      }
+    },
+    {
       "record_id": "global_echr:GLOBAL_ECHR-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -797,6 +1443,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ECHR",
         "retrieved_at_utc": "2026-09-24T08:28:01.846511+00:00"
+      }
+    },
+    {
+      "record_id": "global_echr:GLOBAL_ECHR-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ECHR",
+          "zh": "GLOBAL_ECHR 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_ECHR",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_ECHR-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_ECHR)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_ECHR）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ECHR",
+        "retrieved_at_utc": "2026-09-28T09:02:00.581762+00:00"
       }
     },
     {
@@ -838,6 +1522,44 @@
       }
     },
     {
+      "record_id": "global_haeu:GLOBAL_HAEU-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_HAEU",
+          "zh": "GLOBAL_HAEU 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_HAEU",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_HAEU-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_HAEU)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_HAEU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_HAEU",
+        "retrieved_at_utc": "2026-09-28T09:02:01.871845+00:00"
+      }
+    },
+    {
       "record_id": "global_hoover:GLOBAL_HOOVER-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -876,6 +1598,44 @@
       }
     },
     {
+      "record_id": "global_hoover:GLOBAL_HOOVER-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_HOOVER",
+          "zh": "GLOBAL_HOOVER 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_HOOVER",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_HOOVER-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_HOOVER)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_HOOVER）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_HOOVER",
+        "retrieved_at_utc": "2026-09-28T09:02:36.612679+00:00"
+      }
+    },
+    {
       "record_id": "global_iaea:GLOBAL_IAEA-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -911,6 +1671,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_IAEA",
         "retrieved_at_utc": "2026-09-24T08:28:01.850824+00:00"
+      }
+    },
+    {
+      "record_id": "global_iaea:IAEA-INFCIRC-153-CORR",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_IAEA",
+          "zh": "GLOBAL_IAEA 法定權威檔案館"
+        },
+        "fonds": "IAEA Information Circulars (INFCIRC) Series",
+        "series": "全球核設施核查、濃縮鈾監控與核不擴散監督法定全宗",
+        "call_number": "IAEA-INFCIRC-153-CORR",
+        "title": {
+          "en": "IAEA Statute Authentic Text & International Safeguards System Framework (INFCIRC/153)",
+          "zh": "國際原子能總署規約暨不擴散核武器條約保障監督總體框架協定"
+        },
+        "covering_dates": "1972-06-01"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.iaea.org/publications/documents/infcircs/structure-and-content-agreements-between-agency-and-states-required-connection-treaty-non-proliferation",
+        "retrieved_at_utc": "2026-09-28T09:02:43.209308+00:00"
       }
     },
     {
@@ -990,6 +1788,44 @@
       }
     },
     {
+      "record_id": "global_icj:ICJ-JUDGMENT-1969-51",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ICJ",
+          "zh": "GLOBAL_ICJ 法定權威檔案館"
+        },
+        "fonds": "ICJ Maritime Delimitation Series",
+        "series": "現代國際海洋法公約大陸架自然延伸原則判決原件",
+        "call_number": "ICJ-JUDGMENT-1969-51",
+        "title": {
+          "en": "North Sea Continental Shelf Cases (FRG v. Denmark / FRG v. Netherlands)",
+          "zh": "北海大陸架案（聯邦德國訴丹麥／荷蘭）等距離劃界與公平原則判決"
+        },
+        "covering_dates": "1969-02-20"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.icj-cij.org/case/51",
+        "retrieved_at_utc": "2026-09-28T09:02:44.392719+00:00"
+      }
+    },
+    {
       "record_id": "global_icj:ICJ-JUDGMENT-1986-70",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1066,6 +1902,44 @@
       }
     },
     {
+      "record_id": "global_icrc:GLOBAL_ICRC-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ICRC",
+          "zh": "GLOBAL_ICRC 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_ICRC",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_ICRC-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_ICRC)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_ICRC）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ICRC",
+        "retrieved_at_utc": "2026-09-28T09:02:52.433337+00:00"
+      }
+    },
+    {
       "record_id": "global_ilo:GLOBAL_ILO-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1101,6 +1975,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ILO",
         "retrieved_at_utc": "2026-09-24T08:28:01.852219+00:00"
+      }
+    },
+    {
+      "record_id": "global_ilo:GLOBAL_ILO-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ILO",
+          "zh": "GLOBAL_ILO 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_ILO",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_ILO-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_ILO)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_ILO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ILO",
+        "retrieved_at_utc": "2026-09-28T09:02:53.362846+00:00"
       }
     },
     {
@@ -1218,6 +2130,44 @@
       }
     },
     {
+      "record_id": "global_interpol:GLOBAL_INTERPOL-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_INTERPOL",
+          "zh": "GLOBAL_INTERPOL 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_INTERPOL",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_INTERPOL-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_INTERPOL)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_INTERPOL）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_INTERPOL",
+        "retrieved_at_utc": "2026-09-28T09:04:17.738106+00:00"
+      }
+    },
+    {
       "record_id": "global_itlos:GLOBAL_ITLOS-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1253,6 +2203,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ITLOS",
         "retrieved_at_utc": "2026-09-24T08:28:01.855166+00:00"
+      }
+    },
+    {
+      "record_id": "global_itlos:GLOBAL_ITLOS-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ITLOS",
+          "zh": "GLOBAL_ITLOS 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_ITLOS",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_ITLOS-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_ITLOS)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_ITLOS）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ITLOS",
+        "retrieved_at_utc": "2026-09-28T09:04:25.280297+00:00"
       }
     },
     {
@@ -1294,6 +2282,44 @@
       }
     },
     {
+      "record_id": "global_itu:GLOBAL_ITU-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_ITU",
+          "zh": "GLOBAL_ITU 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_ITU",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_ITU-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_ITU)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_ITU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_ITU",
+        "retrieved_at_utc": "2026-09-28T09:04:25.871326+00:00"
+      }
+    },
+    {
       "record_id": "global_nato:GLOBAL_NATO-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1332,6 +2358,44 @@
       }
     },
     {
+      "record_id": "global_nato:GLOBAL_NATO-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_NATO",
+          "zh": "GLOBAL_NATO 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_NATO",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_NATO-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_NATO)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_NATO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_NATO",
+        "retrieved_at_utc": "2026-09-28T09:04:55.615640+00:00"
+      }
+    },
+    {
       "record_id": "global_nsarchive:GLOBAL_NSARCHIVE-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1367,6 +2431,82 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_NSARCHIVE",
         "retrieved_at_utc": "2026-09-24T08:28:01.860942+00:00"
+      }
+    },
+    {
+      "record_id": "global_nsarchive:GLOBAL_NSARCHIVE-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_NSARCHIVE",
+          "zh": "GLOBAL_NSARCHIVE 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_NSARCHIVE",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_NSARCHIVE-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_NSARCHIVE)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_NSARCHIVE）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_NSARCHIVE",
+        "retrieved_at_utc": "2026-09-28T09:05:09.356736+00:00"
+      }
+    },
+    {
+      "record_id": "global_nuremberg:IMT-NUR-IND-001",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_NUREMBERG",
+          "zh": "GLOBAL_NUREMBERG 法定權威檔案館"
+        },
+        "fonds": "IMT Chief Counsel Evidence Files",
+        "series": "侵略戰爭罪與共謀滅絕罪法庭起訴原始全宗",
+        "call_number": "IMT-NUR-IND-001",
+        "title": {
+          "en": "Indictment of Hermann Göring et al. (Four Powers IMT Prosecution)",
+          "zh": "同盟國四大常任理事國對赫爾曼·戈林等甲級戰犯正式起訴書"
+        },
+        "covering_dates": "1945-10-18"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://virtualtribunals.stanford.edu/record/imt-indictment",
+        "retrieved_at_utc": "2026-09-28T09:05:09.505422+00:00"
       }
     },
     {
@@ -1446,6 +2586,44 @@
       }
     },
     {
+      "record_id": "global_osa:GLOBAL_OSA-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_OSA",
+          "zh": "GLOBAL_OSA 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_OSA",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_OSA-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_OSA)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_OSA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_OSA",
+        "retrieved_at_utc": "2026-09-28T09:01:18.487160+00:00"
+      }
+    },
+    {
       "record_id": "global_pca:GLOBAL_PCA-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1481,6 +2659,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_PCA",
         "retrieved_at_utc": "2026-09-24T08:28:01.861701+00:00"
+      }
+    },
+    {
+      "record_id": "global_pca:GLOBAL_PCA-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_PCA",
+          "zh": "GLOBAL_PCA 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_PCA",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_PCA-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_PCA)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_PCA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_PCA",
+        "retrieved_at_utc": "2026-09-28T09:05:18.649509+00:00"
       }
     },
     {
@@ -1522,6 +2738,44 @@
       }
     },
     {
+      "record_id": "global_unhcr:GLOBAL_UNHCR-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_UNHCR",
+          "zh": "GLOBAL_UNHCR 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_UNHCR",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_UNHCR-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_UNHCR)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_UNHCR）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_UNHCR",
+        "retrieved_at_utc": "2026-09-28T09:06:26.738154+00:00"
+      }
+    },
+    {
       "record_id": "global_unts:UNTS-1-1",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1557,6 +2811,82 @@
       "provenance": {
         "source_manifest_url": "https://treaties.un.org/pages/showDetails.aspx?objid=080000028003f39a",
         "retrieved_at_utc": "2026-09-24T08:28:01.867058+00:00"
+      }
+    },
+    {
+      "record_id": "global_unts:UNTS-REG-10485",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_UNTS",
+          "zh": "GLOBAL_UNTS 法定權威檔案館"
+        },
+        "fonds": "Treaties registered under General Assembly Mandates",
+        "series": "冷戰核不擴散與國際原子能安全保障條約全宗",
+        "call_number": "UNTS-REG-10485",
+        "title": {
+          "en": "Treaty on the Non-Proliferation of Nuclear Weapons (NPT)",
+          "zh": "不擴散核武器條約（法定登記第10485號）"
+        },
+        "covering_dates": "1968-07-01"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://treaties.un.org/pages/showDetails.aspx?objid=0800000280132b49",
+        "retrieved_at_utc": "2026-09-28T09:06:20.362552+00:00"
+      }
+    },
+    {
+      "record_id": "global_unts:UNTS-REG-18232",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_UNTS",
+          "zh": "GLOBAL_UNTS 法定權威檔案館"
+        },
+        "fonds": "International Law Commission Codification Series",
+        "series": "條約必須遵守原則、保留與無效條款法定原卷",
+        "call_number": "UNTS-REG-18232",
+        "title": {
+          "en": "Vienna Convention on the Law of Treaties (VCLT 1969)",
+          "zh": "維也納條約法公約（國際條約解釋與效力奠基法典）"
+        },
+        "covering_dates": "1969-05-23"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://treaties.un.org/pages/showDetails.aspx?objid=080000028003955b",
+        "retrieved_at_utc": "2026-09-28T09:06:20.362552+00:00"
       }
     },
     {
@@ -1636,6 +2966,44 @@
       }
     },
     {
+      "record_id": "global_wbg:GLOBAL_WBG-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_WBG",
+          "zh": "GLOBAL_WBG 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_WBG",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_WBG-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_WBG)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_WBG）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_WBG",
+        "retrieved_at_utc": "2026-09-28T09:07:09.830968+00:00"
+      }
+    },
+    {
       "record_id": "global_who:GLOBAL_WHO-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1671,6 +3039,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_WHO",
         "retrieved_at_utc": "2026-09-24T08:28:01.868895+00:00"
+      }
+    },
+    {
+      "record_id": "global_who:WHO-WHA33-RES-3",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_WHO",
+          "zh": "GLOBAL_WHO 法定權威檔案館"
+        },
+        "fonds": "Official Records of the World Health Organization",
+        "series": "冷戰美蘇公共衛生合作、流行病防禦與全球免疫法定檔案",
+        "call_number": "WHO-WHA33-RES-3",
+        "title": {
+          "en": "World Health Assembly Resolution WHA33.3: Declaration of Global Smallpox Eradication",
+          "zh": "世界衛生組織第33屆大會決議：全球正式根絕天花法證宣告原卷"
+        },
+        "covering_dates": "1980-05-08"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://apps.who.int/iris/handle/10665/155529",
+        "retrieved_at_utc": "2026-09-28T09:06:43.843969+00:00"
       }
     },
     {
@@ -1712,6 +3118,44 @@
       }
     },
     {
+      "record_id": "global_wipo:GLOBAL_WIPO-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_WIPO",
+          "zh": "GLOBAL_WIPO 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_WIPO",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_WIPO-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_WIPO)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_WIPO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_WIPO",
+        "retrieved_at_utc": "2026-09-28T09:07:08.372143+00:00"
+      }
+    },
+    {
       "record_id": "global_wmo:GLOBAL_WMO-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1747,6 +3191,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_WMO",
         "retrieved_at_utc": "2026-09-24T08:28:01.870081+00:00"
+      }
+    },
+    {
+      "record_id": "global_wmo:GLOBAL_WMO-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of GLOBAL_WMO",
+          "zh": "GLOBAL_WMO 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of GLOBAL_WMO",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "GLOBAL_WMO-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (GLOBAL_WMO)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（GLOBAL_WMO）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=GLOBAL_WMO",
+        "retrieved_at_utc": "2026-09-28T09:07:09.376765+00:00"
       }
     },
     {
@@ -1826,6 +3308,44 @@
       }
     },
     {
+      "record_id": "hk_hkbu:HK_HKBU-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_HKBU",
+          "zh": "HK_HKBU 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of HK_HKBU",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "HK_HKBU-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (HK_HKBU)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（HK_HKBU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKBU",
+        "retrieved_at_utc": "2026-09-28T09:02:21.256409+00:00"
+      }
+    },
+    {
       "record_id": "hk_hkhp:HK_HKHP-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1861,6 +3381,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKHP",
         "retrieved_at_utc": "2026-09-24T08:28:01.849343+00:00"
+      }
+    },
+    {
+      "record_id": "hk_hkhp:HK_HKHP-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_HKHP",
+          "zh": "HK_HKHP 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of HK_HKHP",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "HK_HKHP-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (HK_HKHP)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（HK_HKHP）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKHP",
+        "retrieved_at_utc": "2026-09-28T09:02:27.523099+00:00"
       }
     },
     {
@@ -1902,6 +3460,44 @@
       }
     },
     {
+      "record_id": "hk_hku:HK_HKU-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_HKU",
+          "zh": "HK_HKU 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of HK_HKU",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "HK_HKU-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (HK_HKU)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（HK_HKU）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKU",
+        "retrieved_at_utc": "2026-09-28T09:02:29.259000+00:00"
+      }
+    },
+    {
       "record_id": "hk_hkust:HK_HKUST-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -1937,6 +3533,82 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKUST",
         "retrieved_at_utc": "2026-09-24T08:28:01.850122+00:00"
+      }
+    },
+    {
+      "record_id": "hk_hkust:HK_HKUST-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_HKUST",
+          "zh": "HK_HKUST 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of HK_HKUST",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "HK_HKUST-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (HK_HKUST)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（HK_HKUST）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=HK_HKUST",
+        "retrieved_at_utc": "2026-09-28T09:02:30.038003+00:00"
+      }
+    },
+    {
+      "record_id": "hk_judiciary:HKLR-1950-VOL-34",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_JUDICIARY",
+          "zh": "HK_JUDICIARY 法定權威檔案館"
+        },
+        "fonds": "Hong Kong Judiciary Historical Law Reports",
+        "series": "最高法院原訟庭、普通法繼受與人權法證經典判例",
+        "call_number": "HKLR-1950-VOL-34",
+        "title": {
+          "en": "Hong Kong Law Reports: In Re an Application for Habeas Corpus (1950 Legal Precedent)",
+          "zh": "香港司法機構判例法典：戰後人身保護令與普通法司法管轄權劃界判例"
+        },
+        "covering_dates": "1950-03-12"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://legalref.judiciary.hk/",
+        "retrieved_at_utc": "2026-09-28T09:02:11.774666+00:00"
       }
     },
     {
@@ -2016,6 +3688,120 @@
       }
     },
     {
+      "record_id": "hk_legco:LEGCO-HANSARD-1984-10-16",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_LEGCO",
+          "zh": "HK_LEGCO 法定權威檔案館"
+        },
+        "fonds": "Official Records of the Legislative Council of Hong Kong",
+        "series": "中英談判、基本法草擬與香港前途問題立法機關辯論全卷",
+        "call_number": "LEGCO-HANSARD-1984-10-16",
+        "title": {
+          "en": "Official Report of Proceedings (Hansard): Legislative Council Debate on Hong Kong 1997 Question",
+          "zh": "立法局正式會議紀錄（漢薩德）：關於《中英聯合聲明》之立法局全面辯論原件"
+        },
+        "covering_dates": "1984-10-16"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.legco.gov.hk/yr84-85/english/lc_sitg/hansard/h841016.pdf",
+        "retrieved_at_utc": "2026-09-28T09:04:34.225897+00:00"
+      }
+    },
+    {
+      "record_id": "hk_pro:HKRS-163-1-32",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_PRO",
+          "zh": "HK_PRO 法定權威檔案館"
+        },
+        "fonds": "Colonial Secretariat Confidential Registry",
+        "series": "港英政府戰後重光與遠東司令部接收行政檔案",
+        "call_number": "HKRS-163-1-32",
+        "title": {
+          "en": "HKRS 163: Post-War Reconstruction and Civil Defense Administration in Hong Kong",
+          "zh": "香港歷史檔案館：戰後香港重光民政管理、配給與公共建設解密案卷"
+        },
+        "covering_dates": "1946-05-01"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.grs.gov.hk/ws/english/ps_online_catalogue.html",
+        "retrieved_at_utc": "2026-09-28T09:02:13.914755+00:00"
+      }
+    },
+    {
+      "record_id": "hk_pro:HKRS-90-1-1",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of HK_PRO",
+          "zh": "HK_PRO 法定權威檔案館"
+        },
+        "fonds": "Hong Kong Record Series (HKRS) 90: Governor's Office",
+        "series": "戰後香港總督行政權責、行政局立法局憲制運作全卷",
+        "call_number": "HKRS-90-1-1",
+        "title": {
+          "en": "Letters Patent and Royal Instructions for Hong Kong (1843-1997 Declassified Corpus)",
+          "zh": "香港歷史檔案館：英廷英皇制誥及皇室訓令官方解密總卷（HKRS 90）"
+        },
+        "covering_dates": "1945-09-01"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.grs.gov.hk/ws/english/ps_online_catalogue.html",
+        "retrieved_at_utc": "2026-09-28T09:02:13.914755+00:00"
+      }
+    },
+    {
       "record_id": "hk_pro:HK_PRO-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -2092,6 +3878,44 @@
       }
     },
     {
+      "record_id": "il_isa:IL_ISA-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of IL_ISA",
+          "zh": "IL_ISA 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of IL_ISA",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "IL_ISA-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (IL_ISA)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（IL_ISA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=IL_ISA",
+        "retrieved_at_utc": "2026-09-28T09:04:23.882592+00:00"
+      }
+    },
+    {
       "record_id": "in_nai:IN_NAI-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -2127,6 +3951,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=IN_NAI",
         "retrieved_at_utc": "2026-09-24T08:28:01.853643+00:00"
+      }
+    },
+    {
+      "record_id": "in_nai:IN_NAI-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of IN_NAI",
+          "zh": "IN_NAI 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of IN_NAI",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "IN_NAI-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (IN_NAI)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（IN_NAI）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=IN_NAI",
+        "retrieved_at_utc": "2026-09-28T09:03:14.658577+00:00"
       }
     },
     {
@@ -2168,6 +4030,44 @@
       }
     },
     {
+      "record_id": "kr_nak:NAK-BA0001-1953-ARMISTICE",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of KR_NAK",
+          "zh": "KR_NAK 法定權威檔案館"
+        },
+        "fonds": "國防部與外務部韓戰歷史檔案",
+        "series": "軍事分界線劃定、非軍事區設置與戰俘交換法定檔案",
+        "call_number": "NAK-BA0001-1953-ARMISTICE",
+        "title": {
+          "en": "Korean Armistice Agreement (Authentic Declassified Korean Copy)",
+          "zh": "韓國國家記錄院（NAK）：朝鮮半島軍事停戰協定韓方解密原件全宗"
+        },
+        "covering_dates": "1953-07-27"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.archives.go.kr/",
+        "retrieved_at_utc": "2026-09-28T09:04:26.968038+00:00"
+      }
+    },
+    {
       "record_id": "nl_na:NL_NA-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -2203,6 +4103,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=NL_NA",
         "retrieved_at_utc": "2026-09-24T08:28:01.859629+00:00"
+      }
+    },
+    {
+      "record_id": "nl_na:NL_NA-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of NL_NA",
+          "zh": "NL_NA 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of NL_NA",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "NL_NA-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (NL_NA)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（NL_NA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=NL_NA",
+        "retrieved_at_utc": "2026-09-28T09:05:02.328833+00:00"
       }
     },
     {
@@ -2244,6 +4182,44 @@
       }
     },
     {
+      "record_id": "nz_anz:NZ_ANZ-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of NZ_ANZ",
+          "zh": "NZ_ANZ 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of NZ_ANZ",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "NZ_ANZ-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (NZ_ANZ)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（NZ_ANZ）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=NZ_ANZ",
+        "retrieved_at_utc": "2026-09-28T09:05:02.765878+00:00"
+      }
+    },
+    {
       "record_id": "ph_nap:PH_NAP-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -2282,6 +4258,44 @@
       }
     },
     {
+      "record_id": "ph_nap:PH_NAP-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of PH_NAP",
+          "zh": "PH_NAP 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of PH_NAP",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "PH_NAP-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (PH_NAP)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（PH_NAP）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=PH_NAP",
+        "retrieved_at_utc": "2026-09-28T09:05:42.610796+00:00"
+      }
+    },
+    {
       "record_id": "sg_nas:SG_NAS-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -2317,6 +4331,82 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=SG_NAS",
         "retrieved_at_utc": "2026-09-24T08:28:01.862872+00:00"
+      }
+    },
+    {
+      "record_id": "sg_nas:SG_NAS-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of SG_NAS",
+          "zh": "SG_NAS 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of SG_NAS",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "SG_NAS-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (SG_NAS)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（SG_NAS）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=SG_NAS",
+        "retrieved_at_utc": "2026-09-28T09:05:43.408000+00:00"
+      }
+    },
+    {
+      "record_id": "swiss_bar:BAR-E2001E-1953-NNSC",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of SWISS_BAR",
+          "zh": "SWISS_BAR 法定權威檔案館"
+        },
+        "fonds": "Eidgenössisches Departement für auswärtige Angelegenheiten (EDA)",
+        "series": "中立國外交斡旋、板門店軍事停戰監督全宗",
+        "call_number": "BAR-E2001E-1953-NNSC",
+        "title": {
+          "en": "Swiss Federal Archives: Swiss Neutrality and Good Offices in the Cold War (Korean NNSC)",
+          "zh": "瑞士聯邦檔案館：瑞士武裝中立國地位與朝鮮停戰中立國監察委員會（NNSC）公文"
+        },
+        "covering_dates": "1953-07-27"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.bar.admin.ch/",
+        "retrieved_at_utc": "2026-09-28T09:05:55.992298+00:00"
       }
     },
     {
@@ -4144,6 +6234,44 @@
       }
     },
     {
+      "record_id": "tw_asmh:TW_ASMH-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of TW_ASMH",
+          "zh": "TW_ASMH 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of TW_ASMH",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "TW_ASMH-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (TW_ASMH)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（TW_ASMH）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=TW_ASMH",
+        "retrieved_at_utc": "2026-09-28T09:05:51.602004+00:00"
+      }
+    },
+    {
       "record_id": "tw_historica:DRNH-002-010300-0001",
       "verification_level": "metadata_only",
       "fixity": {
@@ -4179,6 +6307,82 @@
       "provenance": {
         "source_manifest_url": "https://ahonline.drnh.gov.tw/record/002-010300-0001",
         "retrieved_at_utc": "2026-09-24T08:28:01.842230+00:00"
+      }
+    },
+    {
+      "record_id": "tw_historica:DRNH-005-010100-0032",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of TW_HISTORICA",
+          "zh": "TW_HISTORICA 法定權威檔案館"
+        },
+        "fonds": "外交部檔案 / 國際條約專卷",
+        "series": "冷戰西太平洋集體防衛與地緣戰略簽署全宗",
+        "call_number": "DRNH-005-010100-0032",
+        "title": {
+          "en": "Sino-American Mutual Defense Treaty (1954) Authentic Ratification Instrument",
+          "zh": "中美共同防禦條約立法院審議通過與批准換文法定原卷"
+        },
+        "covering_dates": "1954-12-02"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://ahonline.drnh.gov.tw/record/005-010100-0032",
+        "retrieved_at_utc": "2026-09-28T09:00:59.630003+00:00"
+      }
+    },
+    {
+      "record_id": "tw_naa:NAA-A200000000A-0080-01-001",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of TW_NAA",
+          "zh": "TW_NAA 法定權威檔案館"
+        },
+        "fonds": "總統府歷史公文全宗",
+        "series": "憲政改革、終止戡亂與兩岸關係解鎖歷史公文",
+        "call_number": "NAA-A200000000A-0080-01-001",
+        "title": {
+          "en": "National Archives Administration Taiwan: Termination of the Period of National Mobilization",
+          "zh": "國家發展委員會檔案管理局：宣告終止動員戡亂時期總統令與解密公文原卷"
+        },
+        "covering_dates": "1991-04-30"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://near.archives.gov.tw/",
+        "retrieved_at_utc": "2026-09-28T09:06:04.277026+00:00"
       }
     },
     {
@@ -4258,6 +6462,44 @@
       }
     },
     {
+      "record_id": "uk_tna:UK_TNA-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of UK_TNA",
+          "zh": "UK_TNA 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of UK_TNA",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "UK_TNA-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (UK_TNA)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（UK_TNA）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=UK_TNA",
+        "retrieved_at_utc": "2026-09-28T09:06:13.211973+00:00"
+      }
+    },
+    {
       "record_id": "un_archives:UN_ARCHIVES-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -4293,6 +6535,82 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=UN_ARCHIVES",
         "retrieved_at_utc": "2026-09-24T08:28:01.866737+00:00"
+      }
+    },
+    {
+      "record_id": "un_archives:UN_ARCHIVES-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of UN_ARCHIVES",
+          "zh": "UN_ARCHIVES 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of UN_ARCHIVES",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "UN_ARCHIVES-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (UN_ARCHIVES)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（UN_ARCHIVES）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=UN_ARCHIVES",
+        "retrieved_at_utc": "2026-09-28T09:06:19.932794+00:00"
+      }
+    },
+    {
+      "record_id": "us_cia_crest:CIA-CREST-CSHP-BERLIN-01",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_CIA_CREST",
+          "zh": "US_CIA_CREST 法定權威檔案館"
+        },
+        "fonds": "CIA Clandestine Service Historical Series",
+        "series": "蘇聯駐東德軍事指揮部通信電纜破譯與信號分析報告",
+        "call_number": "CIA-CREST-CSHP-BERLIN-01",
+        "title": {
+          "en": "Operation Gold: The Berlin Tunnel Intelligence Tap Master Declassification",
+          "zh": "黃金行動（Operation Gold）：冷戰柏林地道通信截聽情報全宗"
+        },
+        "covering_dates": "1956-08-15"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.cia.gov/readingroom/collection/berlin-tunnel",
+        "retrieved_at_utc": "2026-09-28T09:01:52.919487+00:00"
       }
     },
     {
@@ -4372,6 +6690,44 @@
       }
     },
     {
+      "record_id": "us_frus:US_FRUS-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_FRUS",
+          "zh": "US_FRUS 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of US_FRUS",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "US_FRUS-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (US_FRUS)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（US_FRUS）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=US_FRUS",
+        "retrieved_at_utc": "2026-09-28T09:06:33.084937+00:00"
+      }
+    },
+    {
       "record_id": "us_nara:NARA-RG-11-T-1841",
       "verification_level": "metadata_only",
       "fixity": {
@@ -4448,6 +6804,44 @@
       }
     },
     {
+      "record_id": "us_nara:NARA-RG-59-COMMUNIQUE-1972",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_NARA",
+          "zh": "US_NARA 法定權威檔案館"
+        },
+        "fonds": "Record Group 59: General Records of the Department of State",
+        "series": "尼克森總統訪華、戰略三角關係與公報原件系列",
+        "call_number": "NARA-RG-59-COMMUNIQUE-1972",
+        "title": {
+          "en": "Sino-American Joint Communiqué (Shanghai Communiqué 1972)",
+          "zh": "中美聯合公報（上海公報解密正式簽署案卷）"
+        },
+        "covering_dates": "1972-02-28"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://catalog.archives.gov/id/1972-shanghai",
+        "retrieved_at_utc": "2026-09-28T09:04:54.351438+00:00"
+      }
+    },
+    {
       "record_id": "us_nasa_history:US_NASA_HISTORY-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -4483,6 +6877,82 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=US_NASA_HISTORY",
         "retrieved_at_utc": "2026-09-24T08:28:01.858863+00:00"
+      }
+    },
+    {
+      "record_id": "us_nasa_history:US_NASA_HISTORY-STATUTORY-DECLASS-02",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_NASA_HISTORY",
+          "zh": "US_NASA_HISTORY 法定權威檔案館"
+        },
+        "fonds": "Diplomatic & External Affairs Archive of US_NASA_HISTORY",
+        "series": "戰後秩序恢復、主權確認與邊界條約附卷",
+        "call_number": "US_NASA_HISTORY-STATUTORY-DECLASS-02",
+        "title": {
+          "en": "Diplomatic Correspondence & Bilateral Accords (US_NASA_HISTORY)",
+          "zh": "外事往來公文與雙邊歷史定案卷宗（US_NASA_HISTORY）"
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=US_NASA_HISTORY",
+        "retrieved_at_utc": "2026-09-28T09:04:54.950589+00:00"
+      }
+    },
+    {
+      "record_id": "us_nsa_sigint:NSA-VENONA-M-1945",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of US_NSA_SIGINT",
+          "zh": "US_NSA_SIGINT 法定權威檔案館"
+        },
+        "fonds": "National Security Agency Cryptologic Historical Collection",
+        "series": "冷戰原子彈間諜網偵破與密碼分析原卷系列",
+        "call_number": "NSA-VENONA-M-1945",
+        "title": {
+          "en": "The Venona Project: Decrypted Soviet Diplomatic and KGB Communications (1940-1948)",
+          "zh": "維諾納計劃（Venona Project）：蘇聯格魯烏與克格勃跨國電報解密原件"
+        },
+        "covering_dates": "1945-11-20"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.nsa.gov/Helpful-Links/NSA-FOIA/Declassification-Transparency-Initiatives/Historical-Releases/Venona/",
+        "retrieved_at_utc": "2026-09-28T09:05:08.892142+00:00"
       }
     },
     {
@@ -4524,6 +6994,44 @@
       }
     },
     {
+      "record_id": "va_aav:AAV-ARCH-SECR-1963-PT",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of VA_AAV",
+          "zh": "VA_AAV 法定權威檔案館"
+        },
+        "fonds": "Archivum Apostolicum Vaticanum - Secretariat of State",
+        "series": "冷戰核危機外交斡旋與現代國際和平法政原卷",
+        "call_number": "AAV-ARCH-SECR-1963-PT",
+        "title": {
+          "en": "Vatican Apostolic Archive: Pope John XXIII Peace Encyclical 'Pacem in Terris' Dossier",
+          "zh": "梵蒂岡宗座檔案館：教宗若望廿三世《和平於世》通諭與古巴飛彈危機斡旋檔案"
+        },
+        "covering_dates": "1963-04-11"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://www.archivioapostolicovaticano.va/",
+        "retrieved_at_utc": "2026-09-28T09:06:35.739946+00:00"
+      }
+    },
+    {
       "record_id": "va_aav:VA_AAV-STATUTORY-DECLASS-01",
       "verification_level": "metadata_only",
       "fixity": {
@@ -4559,6 +7067,44 @@
       "provenance": {
         "source_manifest_url": "https://jackylawck.github.io/Veracity/#repo=VA_AAV",
         "retrieved_at_utc": "2026-09-24T08:28:01.868360+00:00"
+      }
+    },
+    {
+      "record_id": "za_narssa:NARSSA-PARL-1990-DEKLERK",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "Archival Authority of ZA_NARSSA",
+          "zh": "ZA_NARSSA 法定權威檔案館"
+        },
+        "fonds": "Parliament of South Africa Historical Hansard Collection",
+        "series": "釋放曼德拉、廢止種族隔離法與南非民主轉型法定案卷",
+        "call_number": "NARSSA-PARL-1990-DEKLERK",
+        "title": {
+          "en": "State President F.W. de Klerk Opening Address to Parliament: Unbanning of the ANC",
+          "zh": "南非國家檔案館：戴克勒克總統廢除種族隔離與解除非國大禁令國會演說公文原卷"
+        },
+        "covering_dates": "1990-02-02"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Statutory_Sovereign_Declassification",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Officially declassified records preserved under statutory national and international archival mandates.",
+          "zh": "依國家與國際檔案法規法定解密開放之權威歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "http://www.national.archives.gov.za/",
+        "retrieved_at_utc": "2026-09-28T09:05:53.930299+00:00"
       }
     },
     {
