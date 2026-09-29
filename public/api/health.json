@@ -1,16 +1,17 @@
 {
   "status": "healthy",
-  "last_successful_run_utc": "2026-09-28T09:07:17.090893+00:00",
+  "last_successful_run_utc": "2026-09-29T08:32:21.273298+00:00",
   "total_records": 188,
-  "mutations_this_run": 67,
+  "mutations_this_run": 0,
   "circuit_breaker": {
     "is_anomaly": false,
     "reason": "BOOTSTRAP_PHASE",
-    "detail": "Baseline accumulating: (1/5 runs recorded)."
+    "detail": "Baseline accumulating: (2/5 runs recorded)."
   },
   "mutation_history": [
     74,
-    67
+    67,
+    0
   ],
   "active_adapters": [
     "TW_HISTORICA",
