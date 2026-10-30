@@ -78,6 +78,82 @@
       }
     },
     {
+      "record_id": "aragn:defensa_1d283b99-5f5e-46d1-a7f7-3371b98619b5",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "General Archive of the Nation (Buenos Aires)",
+          "zh": "阿根廷國家檔案館 (布宜諾斯艾利斯)"
+        },
+        "fonds": " Ministerio de Defensa",
+        "series": "南大西洋戰爭、軍事獨裁與冷戰情報解密全宗",
+        "call_number": "AGN-AR-defensa_1d28",
+        "title": {
+          "en": "[AGN Argentina] Inventario de la Comisión de Análisis de Acciones en Combate en Malvinas de la Armada Argentina",
+          "zh": null
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Argentina_Open_Data_License",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Declassified state records released under National Access to Public Information Law 27.275.",
+          "zh": "依阿根廷《第 27.275 號公共資訊獲取法》法定解密開放之政府歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://datos.gob.ar/dataset/defensa_1d283b99-5f5e-46d1-a7f7-3371b98619b5",
+        "retrieved_at_utc": "2026-10-30T08:36:25.065622+00:00"
+      }
+    },
+    {
+      "record_id": "aragn:defensa_9b77046d-c202-4589-83ac-9b7937592cc7",
+      "verification_level": "metadata_only",
+      "fixity": {
+        "hash_algorithm": "NONE",
+        "hash_value": null,
+        "file_size_bytes": null
+      },
+      "archival_context": {
+        "repository": {
+          "en": "General Archive of the Nation (Buenos Aires)",
+          "zh": "阿根廷國家檔案館 (布宜諾斯艾利斯)"
+        },
+        "fonds": " Ministerio de Defensa",
+        "series": "南大西洋戰爭、軍事獨裁與冷戰情報解密全宗",
+        "call_number": "AGN-AR-defensa_9b77",
+        "title": {
+          "en": "[AGN Argentina] Inventario del Servicio Histórico del Ejército Argentino",
+          "zh": null
+        },
+        "covering_dates": "1945-1996"
+      },
+      "heuristic_clues": {
+        "phase_2_status": "STUB_ACTIVE"
+      },
+      "rights_statement": {
+        "license_category": "Argentina_Open_Data_License",
+        "reuse_permitted": true,
+        "legal_disclaimer": {
+          "en": "Declassified state records released under National Access to Public Information Law 27.275.",
+          "zh": "依阿根廷《第 27.275 號公共資訊獲取法》法定解密開放之政府歷史公文。"
+        }
+      },
+      "provenance": {
+        "source_manifest_url": "https://datos.gob.ar/dataset/defensa_9b77046d-c202-4589-83ac-9b7937592cc7",
+        "retrieved_at_utc": "2026-10-30T08:36:25.065652+00:00"
+      }
+    },
+    {
       "record_id": "asia_anri:ANRI-KAA-1955-FINAL",
       "verification_level": "metadata_only",
       "fixity": {
