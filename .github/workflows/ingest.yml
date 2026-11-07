@@ -5,14 +5,13 @@ on:
     - cron: '15 2 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-  id-token: write
-
 jobs:
   ingest-and-sign:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: write
+      id-token: write
 
     steps:
       - name: Hardened Checkout
@@ -29,12 +28,17 @@ jobs:
           cache: 'pip'
           cache-dependency-path: 'requirements.lock'
 
-      - name: Install Dependencies
+      - name: Setup Node.js Runtime (Contract Syntax Verifier)
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Pinned Dependencies (Zero-Fallback Verification)
         run: |
           python -m pip install --upgrade pip
-          pip install --require-hashes -r requirements.lock || pip install -r requirements.in
+          pip install --require-hashes -r requirements.lock
 
-      - name: Run Unit Tests
+      - name: Run Unit & Contract Tests
         run: pytest tests/
 
       - name: Execute Autonomous Ingestion
@@ -54,18 +58,19 @@ jobs:
 
       - name: Non-blocking Wayback Archive Snapshot
         continue-on-error: true
+        env:
+          TARGET_URL: "https://jackylawck.github.io/Veracity/api/records-latest.json"
         run: |
-          curl -s -X POST "https://web.archive.org/save/https://jackylawck.github.io/Veracity/api/records-latest.json" > /dev/null || true
+          curl -s -X POST "https://web.archive.org/save/$TARGET_URL" > /dev/null || true
 
       - name: Commit & Push Verified Ledger
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add public/api/
-          git pull origin main --rebase --autostash
           if ! git diff --staged --quiet; then
-            git commit -m "chore(ledger): autonomous audit & primary dossiers update [skip ci]"
-            git push origin main
+            git commit -m "chore(ledger): autonomous audit & primary dossiers update"
+            git push origin main || (git pull --rebase origin main && git push origin main)
           else
             echo "No mutations detected. Ledger is fully synchronized and healthy."
           fi
