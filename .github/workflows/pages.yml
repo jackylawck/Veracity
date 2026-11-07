@@ -5,12 +5,12 @@ on:
     branches: [ main ]
     paths:
       - 'public/**'
+  # 🟢 關鍵修復：解決 GITHUB_TOKEN 推送無法觸發 on: push 的底層限制
+  workflow_run:
+    workflows: ["Veracity Autonomous Ingestion & Keyless Signature"]
+    types:
+      - completed
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: "pages"
@@ -18,18 +18,25 @@ concurrency:
 
 jobs:
   deploy:
+    # 僅在非 workflow_run（如手動/常規 push）或採集工作流「成功執行」時才部署
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
     steps:
-      - name: Checkout
+      - name: Hardened Checkout
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
