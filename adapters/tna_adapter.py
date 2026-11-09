@@ -1,14 +1,11 @@
-cat << 'EOF' > adapters/tna_adapter.py
 """
 The Veracity // UK The National Archives (TNA) Production Archival Adapter
 主權檔案採集適配器：對齊認識論誠實、涵蓋年限過濾與零逃生門契約
 """
-from __future__ import annotations
-
 import logging
 from datetime import datetime, timezone
 from types import MappingProxyType
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 import requests
 
 try:
@@ -49,7 +46,7 @@ class TnaProductionAdapter(BaseAdapter):
         """動態計算維護者設計之歷史涵蓋截止線 (Current Year - 30)"""
         return datetime.now(timezone.utc).year - 30
 
-    def get_date_window(self) -> tuple[str, str]:
+    def get_date_window(self) -> Tuple[str, str]:
         """回傳 (startDate, endDate) 字串格式 YYYY-MM-DD"""
         return f"{self.START_YEAR}-01-01", f"{self.end_year}-12-31"
 
@@ -122,6 +119,4 @@ class TnaProductionAdapter(BaseAdapter):
         return normalized
 
 
-# 模組向外導出
 __all__ = ["TnaProductionAdapter"]
-EOF
