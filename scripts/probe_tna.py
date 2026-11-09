@@ -1,4 +1,3 @@
-cat << 'EOF' > scripts/probe_tna.py
 """
 The Veracity // UK TNA Discovery API Forensic Semantic Probe
 主權檔案端點語意與能力全維度診斷工具：
@@ -236,4 +235,3 @@ def run_diagnostics() -> bool:
 if __name__ == "__main__":
     success = run_diagnostics()
     sys.exit(0 if success else 1)
-EOF

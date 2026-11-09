@@ -1,4 +1,3 @@
-cat << 'EOF' > scripts/heuristics.py
 """
 The Veracity // Archival Heuristics Engine
 史料批判與全宗斷層線索標註器：僅輸出探索建議，嚴格標示演算法局限性。
@@ -83,4 +82,3 @@ class ArchivalHeuristicsEngine:
         透過 cls.inspect_lacunae 動態分派，嚴格維持 Python MRO 繼承多型支援。
         """
         return cls.inspect_lacunae(records)
-EOF

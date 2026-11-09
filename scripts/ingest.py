@@ -1,4 +1,3 @@
-cat << 'EOF' > scripts/ingest.py
 """
 The Veracity // Autonomous Ingestion & Forensics Ledger Pipeline
 自主公文採集引擎：動態載入主權檔案適配器、沙盒隔離執行、滑動統計斷路器防護與原子寫入。
@@ -208,4 +207,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-EOF

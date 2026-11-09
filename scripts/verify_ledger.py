@@ -1,4 +1,3 @@
-cat << 'EOF' > scripts/verify_ledger.py
 import json
 import sys
 from pathlib import Path
@@ -73,4 +72,3 @@ def verify_ledger() -> None:
 
 if __name__ == "__main__":
     verify_ledger()
-EOF

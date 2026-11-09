@@ -1,4 +1,3 @@
-cat << 'EOF' > scripts/circuit_breaker.py
 """
 The Veracity // Statistical Rolling Anomaly Guard
 自適應滑動視窗統計斷路器：以真實淨變異量（Mutations / Net Additions）為訊號源。
@@ -120,4 +119,3 @@ class RollingAnomalyGuard:
             "z_score": round(z_score, 2),
             "threshold": round(upper_bound, 2)
         }
-EOF
