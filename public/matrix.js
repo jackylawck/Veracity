@@ -1,31 +1,31 @@
 /* ==========================================================================
    The Veracity // Forensic Console Easter Egg & Epistemic Attestation
-   Deterministic Matrix CRT Terminal (Zero-Ghost-Files / Epistemic Fit)
+   Deterministic Matrix CRT Terminal (58-col Compact / Solid Black Backing)
    ========================================================================== */
 (function () {
-  // 消除中途反引號語法陷阱，ASCII 立體字 100% 穩定呈現
+  // 精確收斂至 58 字元等寬，完美適配右側停靠 DevTools，杜絕折行與破版
   const asciiBanner = String.raw`
-┌────────────────────────────────────────────────────────────────────────┐
-│  01001111 01010000 01000101 01001110 00100000 01010011 01001111 01010101 │
-│  ﾘ ｸ ｺ ｳ ｼ ﾊ ﾐ ﾋ ｰ ｳ ｼ ﾅ ﾓ ﾆ ｻ ﾜ ﾂ ｵ ﾘ ｱ ﾎ ﾃ ﾏ ｹ ﾒ ｴ ｶ ｷ ﾑ ﾕ ﾗ ｾ ﾈ ｽ ﾀ │
-│                                                                        │
-│   _______ _            __      __                  _ _                 │
-│  |__   __| |           \ \    / /                 (_) |                │
-│     | |  | |__   ___    \ \  / /__ _ __ __ _  ___ _ _| |_ _   _        │
-│     | |  | '_ \ / _ \    \ \/ / _ \ '__/ _' |/ __| | | __| | | |       │
-│     | |  | | | |  __/     \  /  __/ | | (_| | (__| | | |_| |_| |       │
-│     |_|  |_| |_|\___|      \/ \___|_|  \__,_|\___|_|_|\__|\__, |       │
-│                                                            __/ |       │
-│                                                           |___/        │
-│   [ SOVEREIGN DECLASSIFICATION LEDGER // DETERMINISTIC NON-AI ]       │
-└────────────────────────────────────────────────────────────────────────┘`;
+┌────────────────────────────────────────────────────────┐
+│ 01001111 01010000 01000101 01001110 01010011 01001111  │
+│ ﾘ ｸ ｺ ｳ ｼ ﾊ ﾐ ﾋ ｰ ｳ ｼ ﾅ ﾓ ﾆ ｻ ﾜ ﾂ ｵ ﾘ ｱ ﾎ ﾃ ﾏ ｹ ﾒ ｴ ｶ  │
+│                                                        │
+│  _______ _             __      __                 _    │
+│ |__   __| |            \ \    / /                (_)   │
+│    | |  | |__   ___     \ \  / /__ _ __ __ _  ___ _    │
+│    | |  | '_ \ / _ \     \ \/ / _ \ '__/ _' |/ __| |   │
+│    | |  | | | |  __/      \  /  __/ | | (_| | (__| |   │
+│    |_|  |_| |_|\___|       \/ \___|_|  \__,_|\___|_|   │
+│                                                        │
+│  SOVEREIGN PROVENANCE LEDGER // DETERMINISTIC NON-AI   │
+└────────────────────────────────────────────────────────┘`;
 
   const fontStack = "font-family: 'Courier New', 'MS Gothic', 'Osaka-Mono', monospace;";
 
-  const phosphorGreen = `color: #00ff66; ${fontStack} font-size: 11px; font-weight: bold; line-height: 1.25; text-shadow: 0 0 7px rgba(0,255,102,0.8);`;
+  // 黑底螢光綠：純黑底色 (#020502) + 螢光綠磷光，無圓角、無切片邊界
+  const phosphorGreen = `color: #00ff66; background: #020502; ${fontStack} font-size: 11px; font-weight: bold; line-height: 1.25; text-shadow: 0 0 5px rgba(0,255,102,0.6);`;
   const terminalAmber = `color: #ffb454; ${fontStack} font-size: 11px; font-weight: bold; line-height: 1.5;`;
-  const epistemicGreen = `color: #3fb950; ${fontStack} font-size: 11px; line-height: 1.5;`;
-  const auditBlue      = `color: #58a6ff; ${fontStack} font-size: 10px; line-height: 1.4;`;
+  const epistemicGreen = `color: #2ea043; ${fontStack} font-size: 11px; line-height: 1.5;`;
+  const auditBlue      = `color: #0969da; ${fontStack} font-size: 10px; line-height: 1.4;`;
 
   console.log("%c" + asciiBanner, phosphorGreen);
 
