@@ -1,6 +1,6 @@
 {
   "status": "healthy",
-  "last_successful_run_utc": "2026-11-14T09:01:49.358234+00:00",
+  "last_successful_run_utc": "2026-11-15T09:25:45.258782+00:00",
   "total_records": 190,
   "mutations_this_run": 0,
   "circuit_breaker": {
@@ -8,13 +8,13 @@
     "severity": "NORMAL",
     "status": "HEALTHY",
     "reason": "WITHIN_STATISTICAL_TOLERANCE",
-    "detail": "Mutations (0) within statistical tolerance (Mean: 0.1, Z: -0.28).",
+    "detail": "Mutations (0) within statistical tolerance (Mean: 0.0, Z: 0.00).",
     "current": 0,
     "sample_count": 14,
-    "mean": 0.14,
-    "std_dev": 0.52,
-    "z_score": -0.28,
-    "threshold": 1.43
+    "mean": 0.0,
+    "std_dev": 0.0,
+    "z_score": 0.0,
+    "threshold": 2.5
   },
   "mutation_history": [
     0,
@@ -31,8 +31,8 @@
     0,
     0,
     0,
-    0,
     2,
+    0,
     0,
     0,
     0,
@@ -63,8 +63,8 @@
     0,
     0,
     0,
-    0,
     2,
+    0,
     0,
     0,
     0,
