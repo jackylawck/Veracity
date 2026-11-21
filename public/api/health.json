@@ -1,6 +1,6 @@
 {
   "status": "healthy",
-  "last_successful_run_utc": "2026-11-20T10:03:58.146036+00:00",
+  "last_successful_run_utc": "2026-11-21T09:51:01.973245+00:00",
   "total_records": 190,
   "mutations_this_run": 0,
   "circuit_breaker": {
@@ -25,8 +25,8 @@
     0,
     0,
     0,
-    0,
     2,
+    0,
     0,
     0,
     0,
@@ -57,8 +57,8 @@
     0,
     0,
     0,
-    0,
     2,
+    0,
     0,
     0,
     0,
@@ -82,10 +82,11 @@
   ],
   "adapters_summary": {
     "total_discovered": 71,
-    "active_contributors": [],
+    "active_contributors": [
+      "AR_AGN"
+    ],
     "empty_or_scaffolds": [
       "TW_HISTORICA",
-      "AR_AGN",
       "GLOBAL_AROLSEN",
       "GLOBAL_BIS",
       "GLOBAL_OSA",
@@ -158,6 +159,6 @@
     ],
     "failed_adapters": []
   },
-  "active_pipeline_count": 0,
+  "active_pipeline_count": 1,
   "maintainer_mode": "Solo-Maintainer-Audited"
 }
