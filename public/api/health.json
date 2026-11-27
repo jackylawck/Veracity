@@ -1,6 +1,6 @@
 {
   "status": "healthy",
-  "last_successful_run_utc": "2026-11-26T10:55:37.958839+00:00",
+  "last_successful_run_utc": "2026-11-27T10:53:53.854207+00:00",
   "total_records": 190,
   "mutations_this_run": 0,
   "circuit_breaker": {
@@ -19,8 +19,8 @@
   "mutation_history": [
     0,
     0,
-    0,
     2,
+    0,
     0,
     0,
     0,
@@ -51,8 +51,8 @@
   "metrics_history": [
     0,
     0,
-    0,
     2,
+    0,
     0,
     0,
     0,
